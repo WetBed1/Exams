@@ -1,6 +1,6 @@
 # AOSC 105 Test 2 practice exam
 
-A buildless browser application with 40 prewritten questions, following the uploaded study guide's 40% multiple choice, 40% short answer, and 20% map skills weighting.
+A buildless browser application with 50 prewritten questions, following the uploaded study guide's 40% multiple choice, 40% short answer, and 20% map skills weighting.
 
 The interface includes practice and delayed-feedback exam modes, question navigation, flags, saved drafts, first-response locking, answer explanations, partial credit, results, attempt history, and answer exports. Progress stays in the current browser's local storage. Diagrams use original schematic educational data.
 
@@ -19,3 +19,12 @@ Run `node scripts/check.mjs` for question-bank integrity and meaningful scoring 
 - `.openai/hosting.json`: Site identity and static output location.
 
 There are no external runtime dependencies or credentials in the source.
+
+
+## Reviewed version 2.0
+
+The expanded bank has 20 multiple-choice, 20 written, and 10 map questions, worth 2 points each. This preserves 40/40/20 percent and 100 total points. See [the accuracy review](audit/exam2-review.md) for refinements and a mapping of every study-guide objective to question numbers, and [the coverage data](audit/coverage.json).
+
+The revised 50-question attempt uses a separate browser save key, preserving any older 40-question progress. The instructor's guide controls topic scope; exact practice rubrics and suggested completion time are not official exam requirements.
+
+[Open the interactive exam](https://aosc105-test2-practice-isaac.wetbed.chatgpt.site/) (ChatGPT sign-in may be required).

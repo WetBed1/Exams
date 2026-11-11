@@ -1,0 +1,378 @@
+[
+  {
+    "subject": "Moisture patterns",
+    "study_guide_objective": "Hydrologic cycle and meanings of its terms",
+    "questions": [
+      21
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Moisture patterns",
+    "study_guide_objective": "Each of the six phase changes and energy direction",
+    "questions": [
+      2,
+      22,
+      36,
+      37
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Moisture patterns",
+    "study_guide_objective": "Unique water properties: bonding and ice density",
+    "questions": [
+      1,
+      17
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Moisture patterns",
+    "study_guide_objective": "Relative humidity versus dew point",
+    "questions": [
+      3,
+      18,
+      23
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Moisture patterns",
+    "study_guide_objective": "RH day/night, temperature changes, vapor addition/removal",
+    "questions": [
+      3,
+      23,
+      24
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Moisture patterns",
+    "study_guide_objective": "Lifting condensation level and initial cloud formation",
+    "questions": [
+      14,
+      35
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Fog and clouds",
+    "study_guide_objective": "Cloud formation: rising/cooling air and condensation nuclei",
+    "questions": [
+      14,
+      33
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Fog and clouds",
+    "study_guide_objective": "Dew and frost conditions, surfaces, hygroscopic meaning",
+    "questions": [
+      26
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Fog and clouds",
+    "study_guide_objective": "All ten cloud families: height/base, composition, supercooled water",
+    "questions": [
+      5,
+      6,
+      27,
+      38
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Fog and clouds",
+    "study_guide_objective": "Nimbus indicates precipitation",
+    "questions": [
+      6,
+      38
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Fog and clouds",
+    "study_guide_objective": "Cumulonimbus vertical extent and possible severe weather",
+    "questions": [
+      6,
+      16,
+      36,
+      38
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Fog and clouds",
+    "study_guide_objective": "Three fog routes in the class slides",
+    "questions": [
+      24
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Fog and clouds",
+    "study_guide_objective": "Radiation, advection, and steam fog",
+    "questions": [
+      4,
+      25
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Precipitation",
+    "study_guide_objective": "Bergeron ice-crystal growth and collision-coalescence",
+    "questions": [
+      7,
+      8
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Precipitation",
+    "study_guide_objective": "Rain, snow, sleet, freezing rain and below-cloud temperature profiles",
+    "questions": [
+      9,
+      30
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Precipitation",
+    "study_guide_objective": "Snow-crystal shape, temperature, and moisture",
+    "questions": [
+      28
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Precipitation",
+    "study_guide_objective": "Hail growth conditions",
+    "questions": [
+      19,
+      28
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Precipitation",
+    "study_guide_objective": "Importance of precipitation measurements",
+    "questions": [
+      29
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Pressure and wind",
+    "study_guide_objective": "Wind begins from horizontal pressure differences",
+    "questions": [
+      31,
+      49
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Pressure and wind",
+    "study_guide_objective": "Average sea-level pressure: about 1013 mb",
+    "questions": [
+      10
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Pressure and wind",
+    "study_guide_objective": "Cold-versus-warm air-column density",
+    "questions": [
+      11
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Pressure and wind",
+    "study_guide_objective": "Pressure gradient, Coriolis, and friction",
+    "questions": [
+      12,
+      13,
+      31,
+      40
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Pressure and wind",
+    "study_guide_objective": "Pressure-gradient force alone: high to low",
+    "questions": [
+      31,
+      49
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Pressure and wind",
+    "study_guide_objective": "Coriolis: poles, equator, right in Northern Hemisphere",
+    "questions": [
+      12,
+      40
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Pressure and wind",
+    "study_guide_objective": "Surface friction opposes and slows the wind",
+    "questions": [
+      31,
+      40,
+      47
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Pressure and wind",
+    "study_guide_objective": "Frictionless geostrophic wind parallel to isobars",
+    "questions": [
+      13,
+      47
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Pressure and wind",
+    "study_guide_objective": "Isobar spacing and wind strength",
+    "questions": [
+      46
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Pressure and wind",
+    "study_guide_objective": "Northern Hemisphere cyclone/anticyclone rotation",
+    "questions": [
+      32
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Pressure and wind",
+    "study_guide_objective": "Strong low: surface convergence, upper divergence",
+    "questions": [
+      32
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Pressure and wind",
+    "study_guide_objective": "Strong high: surface divergence, upper convergence",
+    "questions": [
+      32
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Atmospheric stability",
+    "study_guide_objective": "Adiabatic ascent/descent: pressure, temperature, RH",
+    "questions": [
+      34,
+      35
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Atmospheric stability",
+    "study_guide_objective": "Four air-lifting mechanisms",
+    "questions": [
+      33
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Atmospheric stability",
+    "study_guide_objective": "LCL: saturation and cloud-base onset",
+    "questions": [
+      14,
+      35
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Atmospheric stability",
+    "study_guide_objective": "Definitions of stability and buoyancy",
+    "questions": [
+      34,
+      39
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Atmospheric stability",
+    "study_guide_objective": "Environmental versus dry and wet adiabatic lapse rates",
+    "questions": [
+      20,
+      35
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Atmospheric stability",
+    "study_guide_objective": "Cloud types in stable versus unstable air",
+    "questions": [
+      15
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Thunderstorms",
+    "study_guide_objective": "Single-cell life cycle and water phase changes",
+    "questions": [
+      16,
+      36
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Map skills",
+    "study_guide_objective": "UTC/Z to EDT and reverse, with date rollover",
+    "questions": [
+      41,
+      42
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Map skills",
+    "study_guide_objective": "Station model: temperature, dew point, wind speed/direction",
+    "questions": [
+      43,
+      44
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Map skills",
+    "study_guide_objective": "Radar: stronger and weaker cells",
+    "questions": [
+      45
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Map skills",
+    "study_guide_objective": "Isobar-map wind direction and areas of fastest wind",
+    "questions": [
+      46,
+      47,
+      49
+    ],
+    "coverage": "directly assessed"
+  },
+  {
+    "subject": "Map skills",
+    "study_guide_objective": "500-mb troughs/ridges and height-contour meaning",
+    "questions": [
+      48,
+      50
+    ],
+    "coverage": "directly assessed"
+  }
+]

@@ -1,32 +1,32 @@
 export const SECTIONS = [
-  { id: 'multiple_choice', name: 'Multiple choice', short: 'Choices', start: 0, end: 15, total: 40, count: 16 },
-  { id: 'short_answer', name: 'Written answers', short: 'Written', start: 16, end: 31, total: 40, count: 16 },
-  { id: 'map_skills', name: 'Map skills', short: 'Maps', start: 32, end: 39, total: 20, count: 8 }
+  { id: 'multiple_choice', name: 'Multiple choice', short: 'Choices', start: 0, end: 19, total: 40, count: 20 },
+  { id: 'short_answer', name: 'Written answers', short: 'Written', start: 20, end: 39, total: 40, count: 20 },
+  { id: 'map_skills', name: 'Map skills', short: 'Maps', start: 40, end: 49, total: 20, count: 10 }
 ];
 
 export const MAP_FIELDS = {
-  Q33: [
+  Q41: [
     { key: 'time', label: 'Local time in EDT', placeholder: 'HH:MM AM/PM or 24-hour time', type: 'text' },
     { key: 'date', label: 'Local calendar date', type: 'date' }
   ],
-  Q34: [
+  Q42: [
     { key: 'time', label: 'UTC time', placeholder: 'Four-digit Z time or HH:MM', type: 'text' },
     { key: 'date', label: 'UTC calendar date', type: 'date' }
   ],
-  Q35: [
+  Q43: [
     { key: 'temperature', label: 'Air temperature (°F)', type: 'number' },
     { key: 'dewpoint', label: 'Dew point (°F)', type: 'number' }
   ],
-  Q36: [
+  Q44: [
     { key: 'direction', label: 'Wind comes FROM', type: 'select', choices: ['N','NE','E','SE','S','SW','W','NW'].map(x => [x,x]) },
     { key: 'speed', label: 'Wind speed (knots)', type: 'number' }
   ],
-  Q37: [
+  Q45: [
     { key: 'strongest', label: 'Strongest core', type: 'select', choices: ['A','B','C'].map(x => [x,`Cell ${x}`]) },
     { key: 'weakest', label: 'Weakest core', type: 'select', choices: ['A','B','C'].map(x => [x,`Cell ${x}`]) },
     { key: 'range', label: 'Reflectivity at B’s center', type: 'select', choices: ['20','30','40','50','60'].map(x => [x,`${x}–${Number(x)+9} dBZ`]) }
   ],
-  Q38: [
+  Q46: [
     { key: 'location', label: 'Stronger wind expected at', type: 'select', choices: [['A','Location A'],['B','Location B']] },
     { key: 'reason', label: 'Reason', type: 'select', choices: [
       ['pressure','The lower local pressure value alone makes wind faster.'],
@@ -35,11 +35,11 @@ export const MAP_FIELDS = {
       ['friction','Isobar spacing shows that friction is absent at this location.']
     ] }
   ],
-  Q39: [
+  Q47: [
     { key: 'motion', label: 'Geostrophic air moves TOWARD', type: 'select', choices: [['N','North'],['S','South'],['E','East'],['W','West']] },
     { key: 'crossing', label: 'Surface wind crosses toward', type: 'select', choices: [['west','Lower pressure, to the west'],['east','Higher pressure, to the east']] }
   ],
-  Q40: [
+  Q48: [
     { key: 'A', label: 'Axis A', type: 'select', choices: [
       ['ridge-north','Ridge · contours bulge northward'],['trough-south','Trough · contours dip southward'],
       ['ridge-south','Ridge · contours dip southward'],['trough-north','Trough · contours bulge northward']
@@ -48,6 +48,14 @@ export const MAP_FIELDS = {
       ['ridge-north','Ridge · contours bulge northward'],['trough-south','Trough · contours dip southward'],
       ['ridge-south','Ridge · contours dip southward'],['trough-north','Trough · contours bulge northward']
     ] }
+  ],
+  Q49: [
+    { key: 'direction', label: 'Air begins moving TOWARD', type: 'select', choices: [['N','North'],['S','South'],['E','East'],['W','West']] },
+    { key: 'orientation', label: 'Path relative to isobars', type: 'select', choices: [['parallel','Parallel'],['perpendicular','Perpendicular']] }
+  ],
+  Q50: [
+    { key: 'quantity', label: 'The contours show', type: 'select', choices: [['height','Height of the pressure surface'],['pressure','Different air pressures'],['temperature','Air temperature'],['speed','Wind speed']] },
+    { key: 'pressure', label: 'Pressure at the point (mb)', type: 'number' }
   ]
 };
 
@@ -65,6 +73,12 @@ export function parseClock(value) {
   return h <= 23 && min <= 59 ? h * 60 + min : null;
 }
 
+function clockMatches(value, expectedMinutes, expectedZone) {
+  const suffix = String(value ?? '').trim().match(/(EDT|EST|UTC|Z)\s*$/i)?.[1].toUpperCase();
+  const zoneOK = !suffix || suffix === expectedZone || expectedZone === 'UTC' && suffix === 'Z';
+  return zoneOK && parseClock(value) === expectedMinutes;
+}
+
 export function completeDraft(q, draft) {
   if (q.section === 'multiple_choice') return Boolean(draft?.choice);
   if (q.section === 'short_answer') return Boolean(draft?.text?.trim());
@@ -80,34 +94,41 @@ export function gradeMap(q, fields) {
   const rows = [];
   const add = (key, correct, expected, points, explanation) => rows.push({key, correct, expected, points, earned: correct ? points : 0, explanation});
   switch(q.id) {
-    case 'Q33':
-      add('time', parseClock(fields.time) === 1200, '8:00 PM / 2000 EDT', 1.5, q.rubric[0].explanation);
-      add('date', fields.date === '2026-07-17', 'July 17, 2026', 1, q.rubric[1].explanation); break;
-    case 'Q34':
-      add('time', parseClock(fields.time) === 210, '0330Z', 1.5, q.rubric[0].explanation);
-      add('date', fields.date === '2026-07-18', 'July 18, 2026', 1, q.rubric[1].explanation); break;
-    case 'Q35':
-      add('temperature', Number(fields.temperature) === 74, '74°F', 1.25, q.rubric[0].explanation);
-      add('dewpoint', Number(fields.dewpoint) === 62, '62°F', 1.25, q.rubric[1].explanation); break;
-    case 'Q36':
-      add('direction', fields.direction === 'NW', 'Northwest (from)', 1.25, q.rubric[0].explanation);
-      add('speed', Number(fields.speed) === 25, '25 knots', 1.25, q.rubric[1].explanation); break;
-    case 'Q37':
-      add('strongest', fields.strongest === 'B', 'Cell B', 1, q.rubric[0].explanation);
-      add('weakest', fields.weakest === 'C', 'Cell C', 1, q.rubric[1].explanation);
-      add('range', fields.range === '50', '50–59 dBZ', .5, q.rubric[2].explanation); break;
-    case 'Q38':
-      add('location', fields.location === 'B', 'Location B', 1.25, q.rubric[0].explanation);
-      add('reason', fields.reason === 'gradient', 'Closer isobars → larger pressure gradient', 1.25, q.rubric[1].explanation); break;
-    case 'Q39':
-      add('motion', fields.motion === 'N', 'Toward north', 1.25, q.rubric[0].explanation);
-      add('crossing', fields.crossing === 'west', 'Lower pressure, west', 1.25, q.rubric[1].explanation); break;
-    case 'Q40':
+    case 'Q41':
+      add('time', clockMatches(fields.time, 1200, 'EDT'), '8:00 PM / 2000 EDT', q.rubric[0].points, q.rubric[0].explanation);
+      add('date', fields.date === '2026-07-17', 'July 17, 2026', q.rubric[1].points, q.rubric[1].explanation); break;
+    case 'Q42':
+      add('time', clockMatches(fields.time, 210, 'UTC'), '0330Z', q.rubric[0].points, q.rubric[0].explanation);
+      add('date', fields.date === '2026-07-18', 'July 18, 2026', q.rubric[1].points, q.rubric[1].explanation); break;
+    case 'Q43':
+      add('temperature', Number(fields.temperature) === 74, '74°F', q.rubric[0].points, q.rubric[0].explanation);
+      add('dewpoint', Number(fields.dewpoint) === 62, '62°F', q.rubric[1].points, q.rubric[1].explanation); break;
+    case 'Q44':
+      add('direction', fields.direction === 'NW', 'Northwest (from)', q.rubric[0].points, q.rubric[0].explanation);
+      add('speed', Number(fields.speed) === 25, '25 knots', q.rubric[1].points, q.rubric[1].explanation); break;
+    case 'Q45':
+      add('strongest', fields.strongest === 'B', 'Cell B', q.rubric[0].points, q.rubric[0].explanation);
+      add('weakest', fields.weakest === 'C', 'Cell C', q.rubric[1].points, q.rubric[1].explanation);
+      add('range', fields.range === '50', '50–59 dBZ', q.rubric[2].points, q.rubric[2].explanation); break;
+    case 'Q46':
+      add('location', fields.location === 'B', 'Location B', q.rubric[0].points, q.rubric[0].explanation);
+      add('reason', fields.reason === 'gradient', 'Closer isobars → larger pressure gradient', q.rubric[1].points, q.rubric[1].explanation); break;
+    case 'Q47':
+      add('motion', fields.motion === 'N', 'Toward north', q.rubric[0].points, q.rubric[0].explanation);
+      add('crossing', fields.crossing === 'west', 'Lower pressure, west', q.rubric[1].points, q.rubric[1].explanation); break;
+    case 'Q48':
       for (const [key,label,shape] of [['A','ridge','north'],['B','trough','south']]) {
         const [chosenLabel,chosenShape] = String(fields[key] ?? '').split('-');
-        const earned = (chosenLabel === label ? .75 : 0) + (chosenShape === shape ? .5 : 0);
-        rows.push({key, correct: earned === 1.25, expected: `${label === 'ridge' ? 'Ridge' : 'Trough'} · ${shape}ward bend`, points:1.25, earned, explanation:q.rubric[key === 'A' ? 0 : 1].explanation});
+        const max = q.rubric[key === 'A' ? 0 : 1].points;
+        const earned = (chosenLabel === label ? max*.6 : 0) + (chosenShape === shape ? max*.4 : 0);
+        rows.push({key, correct: Math.abs(earned-max) < 1e-9, expected: `${label === 'ridge' ? 'Ridge' : 'Trough'} · ${shape}ward bend`, points:max, earned, explanation:q.rubric[key === 'A' ? 0 : 1].explanation});
       } break;
+    case 'Q49':
+      add('direction', fields.direction === 'W', 'West', q.rubric[0].points, q.rubric[0].explanation);
+      add('orientation', fields.orientation === 'perpendicular', 'Perpendicular', q.rubric[1].points, q.rubric[1].explanation); break;
+    case 'Q50':
+      add('quantity', fields.quantity === 'height', 'Height of the 500-mb surface', q.rubric[0].points, q.rubric[0].explanation);
+      add('pressure', Number(fields.pressure) === 500, '500 mb', q.rubric[1].points, q.rubric[1].explanation); break;
     default: throw new Error('Unsupported map question');
   }
   return {score: rows.reduce((s,r) => s+r.earned,0), max:q.points, rows, grading:'automatic'};
