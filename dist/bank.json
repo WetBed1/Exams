@@ -1,0 +1,2055 @@
+{
+  "title": "AOSC 105 Test 2 Mock Exam",
+  "version": "1.0",
+  "created": "2026-11-11",
+  "status": "Pre-generated question bank and delivery plan; the interactive session has not started.",
+  "question_count": 40,
+  "total_points": 100,
+  "scope": "The uploaded Test 2 Study Guide: Unit 2 and part of Unit 3, specifically winds and upper-air maps.",
+  "format_source": "Test 2 Study Guide - AOSC 105(1).docx, pages 1-2",
+  "sections": [
+    {
+      "id": "multiple_choice",
+      "numbers": [
+        1,
+        16
+      ],
+      "question_count": 16,
+      "points": 40,
+      "weight_percent": 40
+    },
+    {
+      "id": "short_answer",
+      "numbers": [
+        17,
+        32
+      ],
+      "question_count": 16,
+      "points": 40,
+      "weight_percent": 40
+    },
+    {
+      "id": "map_skills",
+      "numbers": [
+        33,
+        40
+      ],
+      "question_count": 8,
+      "points": 20,
+      "weight_percent": 20
+    }
+  ],
+  "delivery_plan": {
+    "default": "Practice: one question at a time, feedback after submitting, with explanations for right and wrong answers.",
+    "optional_exam_mode": "Hold answers and feedback until the end, preserving the same frozen bank and scoring. Recommended for an uncontaminated baseline across overlapping concepts.",
+    "mc_feedback": "After submission show the chosen-option explanation; if wrong, show the keyed option and explanation as well. Make all distractor explanations available for review.",
+    "written_feedback": "Apply the existing rubric to the student’s own wording. Show points earned, reasoning that earned credit, important errors/omissions, and the prewritten model answer.",
+    "map_feedback": "Display the fixed map and prompt, accept the indicated text/numeric responses, then explain the correct interpretation and each scoring component.",
+    "hints": "Prewritten optional hints are available in practice mode and do not reveal the final response. Record hint use separately.",
+    "first_attempt_score": "Preserve the original score after submission. Review or retry is tracked separately and does not overwrite it.",
+    "final_review": "Show score out of 100, section scores out of 40/40/20, missed and partially correct items, rubric explanations, and topics to revisit.",
+    "grading_limit": "MC scoring is deterministic. Open responses require semantic review by the assistant/human using the prewritten rubric; no claim of a standalone automatic free-text grader is made.",
+    "expected_time": "About 75-90 minutes is a planning estimate, not a time limit stated by the instructor.",
+    "calculator": "The source guide permits a calculator that is not a phone.",
+    "fixed_content": "All 40 scored prompts, options, answer keys, rubrics, model answers, common-error explanations, hints, and map data are written before the session begins. Specific feedback about an unexpected free-text response applies these criteria rather than inventing new ones."
+  },
+  "scope_notes": [
+    "The new study guide is the controlling coverage checklist for this mock exam.",
+    "UTC items explicitly use July EDT, avoiding the EST/EDT ambiguity on a November exam date.",
+    "The four map/plot assets are original, deliberately schematic educational data, not historical weather observations.",
+    "This bank consists of original practice questions; it is not a copy or prediction of the instructor’s actual exam.",
+    "Scientifically accurate wording is used where old slides contain simplifications: subfreezing liquid is possible, cloud electricity is not required for coalescence, and adiabatic temperature changes can occur without heat exchange."
+  ],
+  "coverage": {
+    "Hydrologic cycle and terms": [
+      17
+    ],
+    "All six phase changes and heat direction": [
+      2,
+      18,
+      32
+    ],
+    "Water bonds and ice density": [
+      1
+    ],
+    "Relative humidity versus dew point": [
+      3,
+      19
+    ],
+    "Daily temperature and vapor changes affecting humidity": [
+      19,
+      20
+    ],
+    "Lifting condensation level": [
+      14,
+      31
+    ],
+    "Cloud formation and condensation nuclei": [
+      22,
+      29
+    ],
+    "Dew and frost": [
+      22
+    ],
+    "Cloud heights and water/ice/supercooled composition": [
+      5,
+      23
+    ],
+    "Nimbus and deep cumulonimbus": [
+      6
+    ],
+    "Three general routes to fog": [
+      20
+    ],
+    "Radiation, advection, and steam fog": [
+      4,
+      21
+    ],
+    "Bergeron and collision-coalescence": [
+      7,
+      8
+    ],
+    "Rain, snow, sleet, freezing-rain profiles": [
+      9,
+      26
+    ],
+    "Snow-crystal shape and its controls": [
+      24
+    ],
+    "Hail formation": [
+      24
+    ],
+    "Why precipitation measurements matter": [
+      25
+    ],
+    "Wind from horizontal pressure differences": [
+      27,
+      38
+    ],
+    "Average sea-level pressure 1013 mb": [
+      10
+    ],
+    "Cold/warm column density": [
+      11
+    ],
+    "Pressure-gradient, Coriolis, and friction forces": [
+      12,
+      13,
+      27
+    ],
+    "PGF alone high to low": [
+      27
+    ],
+    "Coriolis poles/equator/Northern Hemisphere": [
+      12
+    ],
+    "Friction opposes wind near surface": [
+      27,
+      39
+    ],
+    "Geostrophic flow parallel to isobars": [
+      13,
+      39
+    ],
+    "Isobar spacing and wind strength": [
+      38
+    ],
+    "Northern Hemisphere low/high rotation": [
+      28
+    ],
+    "Strong low: surface convergence/upper divergence": [
+      28
+    ],
+    "Strong high: surface divergence/upper convergence": [
+      28
+    ],
+    "Rising/sinking parcel pressure, temperature, RH": [
+      30
+    ],
+    "Four lifting mechanisms": [
+      29
+    ],
+    "Stability and buoyancy definitions": [
+      30,
+      31
+    ],
+    "Environmental, dry, and saturated lapse rates": [
+      31
+    ],
+    "Cloud types in stable/unstable air": [
+      15
+    ],
+    "Thunderstorm life cycle and phase changes": [
+      16,
+      32
+    ],
+    "UTC/Z and Eastern Daylight conversions": [
+      33,
+      34
+    ],
+    "Station model temperature, dew point, wind direction/speed": [
+      35,
+      36
+    ],
+    "Radar stronger/weaker cells": [
+      37
+    ],
+    "Isobar-map wind direction and strongest wind area": [
+      38,
+      39
+    ],
+    "Troughs/ridges on 500-mb maps": [
+      40
+    ]
+  },
+  "reference_urls": [
+    "https://courses.ems.psu.edu/meteo3/",
+    "https://courses.ems.psu.edu/meteo3/node/1982",
+    "https://courses.ems.psu.edu/meteo3/book/export/html/2022",
+    "https://courses.ems.psu.edu/meteo3/node/2226",
+    "https://courses.ems.psu.edu/meteo3/book/export/html/2017",
+    "https://www.noaa.gov/jetstream/upper-air-charts/common-features-of-constant-pressure-charts",
+    "https://www.noaa.gov/jetstream/thunderstorms/life-cycle-of-thunderstorm",
+    "https://gpm.nasa.gov/resources/faq/rain-formed-condensation-water-vapor-or-melting-ice",
+    "https://www.nssl.noaa.gov/education/svrwx101/hail/"
+  ],
+  "questions": [
+    {
+      "id": "Q01",
+      "number": 1,
+      "section": "multiple_choice",
+      "type": "single_select",
+      "topic": "Moisture patterns: properties of water",
+      "points": 2.5,
+      "question": "Why does ordinary ice float on liquid water?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Freezing packs water molecules more tightly than in liquid water.",
+          "feedback": "Tighter packing would increase density. Ordinary ice instead has a more open structure than liquid water."
+        },
+        {
+          "value": "B",
+          "label": "Ice’s hydrogen-bonded crystal structure is less dense than liquid water.",
+          "feedback": "Hydrogen bonds hold molecules in an open arrangement in ice. The same mass occupies more volume, making ordinary ice less dense than liquid water."
+        },
+        {
+          "value": "C",
+          "label": "Freezing removes the oxygen atoms from water molecules.",
+          "feedback": "Freezing rearranges intact H2O molecules. It does not remove atoms or change water into another chemical substance."
+        },
+        {
+          "value": "D",
+          "label": "Ice and liquid water have equal density, but ice repels liquid water.",
+          "feedback": "Ice floats because its density is lower. Repulsion between the phases is not the explanation for buoyancy."
+        }
+      ],
+      "correctValues": [
+        "B"
+      ],
+      "hint": "Compare the volume occupied by equal masses of ice and liquid water.",
+      "sources": [
+        "Study guide: unique properties of water",
+        "08 slides 6-8"
+      ],
+      "grading": "Award 2.5 points for the keyed answer and 0 otherwise. Show the chosen-option explanation after submission; when wrong, also show the correct option and its explanation. All four explanations must be available for review."
+    },
+    {
+      "id": "Q02",
+      "number": 2,
+      "section": "multiple_choice",
+      "type": "single_select",
+      "topic": "Moisture patterns: phase-change energy",
+      "points": 2.5,
+      "question": "Which pair of phase changes both absorbs energy from the surroundings?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Condensation and deposition",
+          "feedback": "Condensation changes vapor to liquid, and deposition changes vapor to ice. Both release energy to the surroundings."
+        },
+        {
+          "value": "B",
+          "label": "Freezing and evaporation",
+          "feedback": "Evaporation absorbs energy, but freezing releases energy. The pair therefore does not consist of two energy-absorbing changes."
+        },
+        {
+          "value": "C",
+          "label": "Deposition and melting",
+          "feedback": "Melting absorbs energy, but deposition releases energy as vapor becomes ice."
+        },
+        {
+          "value": "D",
+          "label": "Melting and sublimation",
+          "feedback": "Melting changes ice to liquid, and sublimation changes ice directly to vapor. Both require energy from the surroundings."
+        }
+      ],
+      "correctValues": [
+        "D"
+      ],
+      "hint": "Consider whether water is moving toward the vapor phase or toward the ice phase.",
+      "sources": [
+        "Study guide: all phase changes and energy",
+        "08 slide 8"
+      ],
+      "grading": "Award 2.5 points for the keyed answer and 0 otherwise. Show the chosen-option explanation after submission; when wrong, also show the correct option and its explanation. All four explanations must be available for review."
+    },
+    {
+      "id": "Q03",
+      "number": 3,
+      "section": "multiple_choice",
+      "type": "single_select",
+      "topic": "Moisture patterns: relative humidity and dew point",
+      "points": 2.5,
+      "question": "An unsaturated air sample cools at constant pressure. No water vapor is added or removed, and the sample remains unsaturated. What happens?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Relative humidity increases while dew point stays approximately the same.",
+          "feedback": "Cooling lowers saturation vapor pressure while actual vapor pressure remains approximately unchanged. Relative humidity therefore rises, while dew point, which tracks actual vapor pressure, stays approximately constant."
+        },
+        {
+          "value": "B",
+          "label": "Relative humidity decreases while dew point increases.",
+          "feedback": "Cooling alone raises relative humidity under these conditions. Dew point does not increase unless actual vapor pressure increases."
+        },
+        {
+          "value": "C",
+          "label": "Both relative humidity and dew point decrease.",
+          "feedback": "Cooling without a vapor change increases relative humidity. It does not, by itself, lower dew point at constant pressure."
+        },
+        {
+          "value": "D",
+          "label": "Relative humidity stays constant while dew point decreases.",
+          "feedback": "Actual vapor pressure is fixed but saturation vapor pressure decreases. Their ratio changes, so relative humidity does not stay constant."
+        }
+      ],
+      "correctValues": [
+        "A"
+      ],
+      "hint": "Separate the actual vapor amount from the amount needed for saturation at the changing temperature.",
+      "sources": [
+        "Study guide: RH versus dew point and temperature changes",
+        "08 slides 14-16"
+      ],
+      "grading": "Award 2.5 points for the keyed answer and 0 otherwise. Show the chosen-option explanation after submission; when wrong, also show the correct option and its explanation. All four explanations must be available for review."
+    },
+    {
+      "id": "Q04",
+      "number": 4,
+      "section": "multiple_choice",
+      "type": "single_select",
+      "topic": "Fog and clouds: radiation fog",
+      "points": 2.5,
+      "question": "Fog develops over a field near sunrise after a clear night with very light wind. Which mechanism best explains it?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Advection fog caused by warm air moving across a colder surface.",
+          "feedback": "Advection fog requires horizontal transport over a colder surface. The scenario instead emphasizes clear overnight conditions and weak wind."
+        },
+        {
+          "value": "B",
+          "label": "Steam fog caused by cold air receiving vapor from warmer water.",
+          "feedback": "Steam fog involves a relatively warm wet surface supplying vapor to colder air. That is not the mechanism described for this field."
+        },
+        {
+          "value": "C",
+          "label": "Radiation fog caused by surface cooling that cools nearby air to saturation.",
+          "feedback": "The ground loses energy by radiation overnight. It then cools the air touching it, allowing the air to approach its dew point and form fog."
+        },
+        {
+          "value": "D",
+          "label": "Upslope fog caused by moist air rising along a mountain.",
+          "feedback": "Upslope fog forms through forced ascent and expansion cooling. No mountain lifting is described here."
+        }
+      ],
+      "correctValues": [
+        "C"
+      ],
+      "hint": "Focus on what a clear sky and weak wind allow the ground to do overnight.",
+      "sources": [
+        "Study guide: radiation fog",
+        "11 slide 7"
+      ],
+      "grading": "Award 2.5 points for the keyed answer and 0 otherwise. Show the chosen-option explanation after submission; when wrong, also show the correct option and its explanation. All four explanations must be available for review."
+    },
+    {
+      "id": "Q05",
+      "number": 5,
+      "section": "multiple_choice",
+      "type": "single_select",
+      "topic": "Fog and clouds: supercooled water",
+      "points": 2.5,
+      "question": "A cloud contains liquid water droplets at an air temperature of -8 C. Which statement is accurate?",
+      "options": [
+        {
+          "value": "A",
+          "label": "The observation is impossible because every drop freezes at 0 C.",
+          "feedback": "Zero Celsius is the ordinary melting point, but small liquid droplets can remain supercooled below it. Air temperature alone does not force every drop to freeze immediately."
+        },
+        {
+          "value": "B",
+          "label": "The droplets are supercooled liquid water, which can exist below 0 C.",
+          "feedback": "Small liquid droplets can remain unfrozen below 0 C when ice formation has not been initiated. A cloud can also contain both supercooled liquid and ice."
+        },
+        {
+          "value": "C",
+          "label": "The droplets must be invisible water vapor rather than liquid water.",
+          "feedback": "Liquid droplets and water vapor are different phases. A below-freezing temperature does not turn an observed liquid drop into vapor."
+        },
+        {
+          "value": "D",
+          "label": "The droplets are ice crystals because their temperature is below freezing.",
+          "feedback": "Phase must be identified separately from temperature. A liquid drop below 0 C is supercooled, not automatically an ice crystal."
+        }
+      ],
+      "correctValues": [
+        "B"
+      ],
+      "hint": "Distinguish a material’s phase from its temperature.",
+      "sources": [
+        "Study guide: cloud composition, supercooled water",
+        "11 slides 8-9",
+        "12 slides 4-5"
+      ],
+      "grading": "Award 2.5 points for the keyed answer and 0 otherwise. Show the chosen-option explanation after submission; when wrong, also show the correct option and its explanation. All four explanations must be available for review."
+    },
+    {
+      "id": "Q06",
+      "number": 6,
+      "section": "multiple_choice",
+      "type": "single_select",
+      "topic": "Fog and clouds: nimbus and vertical extent",
+      "points": 2.5,
+      "question": "Which statement correctly compares nimbostratus and cumulonimbus clouds?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Nimbostratus produces layered precipitation; cumulonimbus grows vertically and can produce severe weather.",
+          "feedback": "Nimbus is associated with precipitation. Nimbostratus is mainly a layered precipitation cloud, while cumulonimbus is a deep convective cloud associated with thunderstorms and potentially severe weather."
+        },
+        {
+          "value": "B",
+          "label": "Both are thin high ice clouds; neither can produce precipitation.",
+          "feedback": "Thin high ice clouds describe some cirriform clouds. Both nimbostratus and cumulonimbus are precipitation-producing cloud types."
+        },
+        {
+          "value": "C",
+          "label": "Both are confined to a shallow low layer; neither develops vertically.",
+          "feedback": "Nimbostratus is layered, but cumulonimbus can extend through much of the troposphere. Its large vertical extent is a defining feature."
+        },
+        {
+          "value": "D",
+          "label": "Both are named for their altitude; nimbus means a high cloud.",
+          "feedback": "Nimbus refers to precipitation, not altitude. The prefix cirro is associated with high clouds."
+        }
+      ],
+      "correctValues": [
+        "A"
+      ],
+      "hint": "Use the meaning of nimbus and the vertical growth associated with cumulus.",
+      "sources": [
+        "Study guide: nimbus and cumulonimbus",
+        "11 slides 23-24, 34-36"
+      ],
+      "grading": "Award 2.5 points for the keyed answer and 0 otherwise. Show the chosen-option explanation after submission; when wrong, also show the correct option and its explanation. All four explanations must be available for review."
+    },
+    {
+      "id": "Q07",
+      "number": 7,
+      "section": "multiple_choice",
+      "type": "single_select",
+      "topic": "Precipitation: Bergeron process",
+      "points": 2.5,
+      "question": "In a mixed-phase cloud, ice crystals grow while nearby supercooled liquid droplets shrink. What best explains this Bergeron process?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Ice crystals have to melt before water vapor can attach to them.",
+          "feedback": "Ice grows by deposition of vapor without first melting. Melting would change ice to liquid and consume energy."
+        },
+        {
+          "value": "B",
+          "label": "Every supercooled drop freezes as soon as the temperature falls below 0 C.",
+          "feedback": "Supercooled liquid can persist below 0 C. Its coexistence with ice is central to the mixed-phase Bergeron process."
+        },
+        {
+          "value": "C",
+          "label": "Small droplets grow because they fall faster than large droplets.",
+          "feedback": "Larger liquid drops generally have greater terminal fall speeds. Differential fall speeds describe collision-coalescence rather than the vapor-pressure difference in Bergeron growth."
+        },
+        {
+          "value": "D",
+          "label": "Equilibrium vapor pressure is lower over ice than over supercooled liquid.",
+          "feedback": "The vapor conditions can support deposition onto ice while liquid droplets evaporate. Vapor is transferred through the air, allowing ice crystals to grow at the expense of the droplets."
+        }
+      ],
+      "correctValues": [
+        "D"
+      ],
+      "hint": "Compare the equilibrium vapor pressures for the two phases.",
+      "sources": [
+        "Study guide: Bergeron process",
+        "12 slides 3-5, 26"
+      ],
+      "grading": "Award 2.5 points for the keyed answer and 0 otherwise. Show the chosen-option explanation after submission; when wrong, also show the correct option and its explanation. All four explanations must be available for review."
+    },
+    {
+      "id": "Q08",
+      "number": 8,
+      "section": "multiple_choice",
+      "type": "single_select",
+      "topic": "Precipitation: collision-coalescence",
+      "points": 2.5,
+      "question": "What is the central growth mechanism in collision-coalescence within a liquid-water cloud?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Liquid drops become rain only after changing into ice crystals.",
+          "feedback": "Ice is not required for collision-coalescence. This process can produce rain in warm clouds made of liquid droplets."
+        },
+        {
+          "value": "B",
+          "label": "All droplets fall at the same speed and grow without interacting.",
+          "feedback": "Different fall speeds help drops encounter one another. Merging after collisions is the defining growth process."
+        },
+        {
+          "value": "C",
+          "label": "Larger drops fall faster, collide with smaller drops, and merge with some of them.",
+          "feedback": "Differences in drop fall speed allow larger drops to collect smaller ones. Successful collisions increase drop size, eventually producing raindrops."
+        },
+        {
+          "value": "D",
+          "label": "Cloud electricity is required to turn water droplets into raindrops.",
+          "feedback": "Electric fields can affect drop interactions, but they are not a required ingredient for collision-coalescence and rain formation."
+        }
+      ],
+      "correctValues": [
+        "C"
+      ],
+      "hint": "Consider what happens when drops of different sizes share the same cloud.",
+      "sources": [
+        "Study guide: collision-coalescence",
+        "12 slides 6-7",
+        "NASA GPM rain-formation FAQ"
+      ],
+      "grading": "Award 2.5 points for the keyed answer and 0 otherwise. Show the chosen-option explanation after submission; when wrong, also show the correct option and its explanation. All four explanations must be available for review."
+    },
+    {
+      "id": "Q09",
+      "number": 9,
+      "section": "multiple_choice",
+      "type": "single_select",
+      "topic": "Precipitation: winter profiles",
+      "points": 2.5,
+      "question": "Snowflakes melt in a warm layer aloft. They then pass through a deep, sufficiently cold subfreezing layer and freeze into pellets before reaching the ground. What reaches the surface?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Sleet",
+          "feedback": "Sleet consists of ice pellets that form when melted or partly melted precipitation refreezes while still in the air."
+        },
+        {
+          "value": "B",
+          "label": "Snow",
+          "feedback": "The original snow crystals melted. Refreezing the resulting drops produces pellets rather than restoring the original snowflake structure."
+        },
+        {
+          "value": "C",
+          "label": "Freezing rain",
+          "feedback": "Freezing rain reaches the surface as supercooled liquid and freezes on contact. The scenario says the drops freeze into pellets before reaching the ground."
+        },
+        {
+          "value": "D",
+          "label": "Rain",
+          "feedback": "Rain reaches the surface as liquid drops. The scenario describes refreezing in a sufficiently deep cold layer."
+        }
+      ],
+      "correctValues": [
+        "A"
+      ],
+      "hint": "Identify whether freezing happens in the air or on contact with the ground.",
+      "sources": [
+        "Study guide: rain, snow, sleet, freezing rain",
+        "12 slides 19-21"
+      ],
+      "grading": "Award 2.5 points for the keyed answer and 0 otherwise. Show the chosen-option explanation after submission; when wrong, also show the correct option and its explanation. All four explanations must be available for review."
+    },
+    {
+      "id": "Q10",
+      "number": 10,
+      "section": "multiple_choice",
+      "type": "single_select",
+      "topic": "Pressure and wind: reference pressure",
+      "points": 2.5,
+      "question": "What approximate average sea-level pressure does the study guide ask you to know?",
+      "options": [
+        {
+          "value": "A",
+          "label": "13 millibars",
+          "feedback": "Thirteen millibars is far below typical surface pressure and is more characteristic of very high atmospheric levels."
+        },
+        {
+          "value": "B",
+          "label": "101 millibars",
+          "feedback": "About 101 mb is far below average sea-level pressure. The expected reference value is about ten times larger."
+        },
+        {
+          "value": "C",
+          "label": "10130 millibars",
+          "feedback": "This value is about ten times average sea-level pressure. The course reference value is approximately 1013 mb."
+        },
+        {
+          "value": "D",
+          "label": "1013 millibars",
+          "feedback": "The course uses approximately 1013 mb as average sea-level pressure. A millibar and a hectopascal have the same numerical value."
+        }
+      ],
+      "correctValues": [
+        "D"
+      ],
+      "hint": "Think of a typical surface pressure a little above one thousand millibars.",
+      "sources": [
+        "Study guide: average sea-level pressure 1013 mb",
+        "15 slides 2-3"
+      ],
+      "grading": "Award 2.5 points for the keyed answer and 0 otherwise. Show the chosen-option explanation after submission; when wrong, also show the correct option and its explanation. All four explanations must be available for review."
+    },
+    {
+      "id": "Q11",
+      "number": 11,
+      "section": "multiple_choice",
+      "type": "single_select",
+      "topic": "Pressure and wind: warm and cold columns",
+      "points": 2.5,
+      "question": "Two air columns have the same surface pressure, but one is colder. Which statement is accurate?",
+      "options": [
+        {
+          "value": "A",
+          "label": "The warmer column is denser, and its pressure decreases more rapidly with height.",
+          "feedback": "Warmer air is less dense at the same pressure. It expands the column and makes pressure decrease more slowly with height."
+        },
+        {
+          "value": "B",
+          "label": "The colder column is denser, and its pressure decreases more rapidly with height.",
+          "feedback": "Colder air is denser at a given pressure. With the same surface pressure, the colder column is less vertically expanded, so pressure falls more rapidly with altitude and a given pressure level lies lower."
+        },
+        {
+          "value": "C",
+          "label": "Both columns have equal density because their surface pressures match.",
+          "feedback": "Equal surface pressure does not require equal temperature or density. Temperature affects how the column is distributed vertically."
+        },
+        {
+          "value": "D",
+          "label": "The colder column is less dense, so a given pressure level lies higher.",
+          "feedback": "This reverses both relationships. The cold column is denser, and the same pressure level is generally lower."
+        }
+      ],
+      "correctValues": [
+        "B"
+      ],
+      "hint": "Compare how vertically expanded a warm column is with a cold column.",
+      "sources": [
+        "Study guide: density of warm and cold columns",
+        "15 slide 3"
+      ],
+      "grading": "Award 2.5 points for the keyed answer and 0 otherwise. Show the chosen-option explanation after submission; when wrong, also show the correct option and its explanation. All four explanations must be available for review."
+    },
+    {
+      "id": "Q12",
+      "number": 12,
+      "section": "multiple_choice",
+      "type": "single_select",
+      "topic": "Pressure and wind: Coriolis effect",
+      "points": 2.5,
+      "question": "Which statement correctly describes the Coriolis effect on horizontal wind?",
+      "options": [
+        {
+          "value": "A",
+          "label": "It deflects moving air to the left in the Northern Hemisphere and is strongest at the equator.",
+          "feedback": "Northern Hemisphere deflection is to the right. For the same wind speed, the effect is weakest at the equator and stronger toward the poles."
+        },
+        {
+          "value": "B",
+          "label": "It always points from high pressure toward low pressure in both hemispheres.",
+          "feedback": "That describes the pressure-gradient force. Coriolis acts perpendicular to the direction of motion, with its side depending on hemisphere."
+        },
+        {
+          "value": "C",
+          "label": "It deflects moving air to the right in the Northern Hemisphere and is zero at the equator.",
+          "feedback": "For horizontal flow, Coriolis deflection is to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. Its latitude dependence makes it zero at the equator and strongest near the poles for the same wind speed."
+        },
+        {
+          "value": "D",
+          "label": "It acts only near the ground and disappears above the friction layer.",
+          "feedback": "Coriolis affects large-scale winds aloft as well as near the surface. Friction, not Coriolis, is concentrated near the ground."
+        }
+      ],
+      "correctValues": [
+        "C"
+      ],
+      "hint": "Use the hemisphere rule and the latitude where Earth’s horizontal Coriolis parameter vanishes.",
+      "sources": [
+        "Study guide: Coriolis latitude and hemisphere",
+        "15 slides 8-9"
+      ],
+      "grading": "Award 2.5 points for the keyed answer and 0 otherwise. Show the chosen-option explanation after submission; when wrong, also show the correct option and its explanation. All four explanations must be available for review."
+    },
+    {
+      "id": "Q13",
+      "number": 13,
+      "section": "multiple_choice",
+      "type": "single_select",
+      "topic": "Pressure and wind: geostrophic balance",
+      "points": 2.5,
+      "question": "An idealized wind follows straight, parallel isobars with negligible friction and no change in speed or direction. Which balance describes it?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Friction balances gravity; the wind is geostrophic.",
+          "feedback": "Gravity acts vertically, while friction opposes motion. The horizontal geostrophic balance is between pressure-gradient and Coriolis forces."
+        },
+        {
+          "value": "B",
+          "label": "The pressure-gradient force acts alone; the wind is geostrophic.",
+          "feedback": "With pressure-gradient force alone, air would accelerate from high toward low pressure across the isobars rather than follow them."
+        },
+        {
+          "value": "C",
+          "label": "The Coriolis force vanishes; the wind is geostrophic.",
+          "feedback": "Coriolis is needed to balance the pressure-gradient force in ordinary geostrophic flow. Its disappearance would remove that balance."
+        },
+        {
+          "value": "D",
+          "label": "Pressure-gradient and Coriolis forces balance in geostrophic flow.",
+          "feedback": "In geostrophic balance, the two horizontal forces are equal and opposite. The wind travels parallel to straight isobars, with lower pressure on its left in the Northern Hemisphere."
+        }
+      ],
+      "correctValues": [
+        "D"
+      ],
+      "hint": "A steady straight path requires the net horizontal force to be zero.",
+      "sources": [
+        "Study guide: geostrophic wind",
+        "15 slide 9"
+      ],
+      "grading": "Award 2.5 points for the keyed answer and 0 otherwise. Show the chosen-option explanation after submission; when wrong, also show the correct option and its explanation. All four explanations must be available for review."
+    },
+    {
+      "id": "Q14",
+      "number": 14,
+      "section": "multiple_choice",
+      "type": "single_select",
+      "topic": "Atmospheric stability: lifting condensation level",
+      "points": 2.5,
+      "question": "What is the lifting condensation level (LCL) of a rising air parcel?",
+      "options": [
+        {
+          "value": "A",
+          "label": "The level where surface pressure reaches its daily maximum.",
+          "feedback": "The LCL concerns saturation in a lifted parcel, not a daily maximum of surface pressure."
+        },
+        {
+          "value": "B",
+          "label": "Where lifting first brings the parcel to saturation.",
+          "feedback": "As unsaturated air rises and cools, relative humidity increases. At the LCL the parcel reaches saturation; with suitable nuclei, condensation can begin and a cloud base can form."
+        },
+        {
+          "value": "C",
+          "label": "The level that every thunderstorm reaches at the tropopause.",
+          "feedback": "The tropopause can limit the top of deep convection. The LCL usually marks a much lower cloud-base level, not the cloud top."
+        },
+        {
+          "value": "D",
+          "label": "The level where every lifted parcel becomes warmer than its surroundings.",
+          "feedback": "That describes the idea of a level of free convection. A parcel can become saturated at the LCL while still being cooler than its environment."
+        }
+      ],
+      "correctValues": [
+        "B"
+      ],
+      "hint": "Think about the beginning of condensation rather than the top of a cloud.",
+      "sources": [
+        "Study guide: lifting condensation level",
+        "10 slide 23"
+      ],
+      "grading": "Award 2.5 points for the keyed answer and 0 otherwise. Show the chosen-option explanation after submission; when wrong, also show the correct option and its explanation. All four explanations must be available for review."
+    },
+    {
+      "id": "Q15",
+      "number": 15,
+      "section": "multiple_choice",
+      "type": "single_select",
+      "topic": "Atmospheric stability: cloud structure",
+      "points": 2.5,
+      "question": "Which pairing best describes the usual cloud response to lifting in stable versus unstable air?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Stable air favors towering cumuliform clouds; unstable air favors flat stratiform clouds.",
+          "feedback": "This reverses the usual relationship. Persistent vertical growth is associated with instability, while forced gentle lifting in stable air favors layers."
+        },
+        {
+          "value": "B",
+          "label": "Stable and unstable air both prevent condensation under all conditions.",
+          "feedback": "Either environment can contain saturated air and clouds. Stability describes the parcel’s response to displacement, not whether condensation is categorically possible."
+        },
+        {
+          "value": "C",
+          "label": "Stable air favors layered stratiform clouds; unstable air favors vertically growing cumuliform clouds.",
+          "feedback": "Stable air resists continued vertical displacement and commonly spreads into layers when forced upward. Positively buoyant parcels in unstable air can keep rising and grow vertically."
+        },
+        {
+          "value": "D",
+          "label": "Unstable air always stays cloud-free; stable air always produces thunderstorms.",
+          "feedback": "Unstable air can support convection if sufficient moisture and lift are present. Stable air usually limits the vertical growth needed for thunderstorms."
+        }
+      ],
+      "correctValues": [
+        "C"
+      ],
+      "hint": "Ask whether a displaced parcel tends to keep rising or return toward its original level.",
+      "sources": [
+        "Study guide: stable and unstable cloud types",
+        "10 slides 24-26"
+      ],
+      "grading": "Award 2.5 points for the keyed answer and 0 otherwise. Show the chosen-option explanation after submission; when wrong, also show the correct option and its explanation. All four explanations must be available for review."
+    },
+    {
+      "id": "Q16",
+      "number": 16,
+      "section": "multiple_choice",
+      "type": "single_select",
+      "topic": "Thunderstorms: cell life cycle",
+      "points": 2.5,
+      "question": "What marks the mature stage of a typical single-cell thunderstorm?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Both an updraft and a downdraft are present.",
+          "feedback": "A cell becomes mature when precipitation and a downdraft develop while the updraft continues. Strong weather often occurs during this stage."
+        },
+        {
+          "value": "B",
+          "label": "An updraft is present, but no downdraft has developed.",
+          "feedback": "Updraft-dominated growth characterizes the developing cumulus stage before the mature downdraft develops."
+        },
+        {
+          "value": "C",
+          "label": "Only a downdraft remains, and the warm moist inflow is cut off.",
+          "feedback": "A downdraft overwhelming the updraft and cutting off inflow characterizes dissipation."
+        },
+        {
+          "value": "D",
+          "label": "No vertical air motion remains anywhere in the cloud.",
+          "feedback": "A mature cell has active vertical motion. The simultaneous updraft and downdraft are its defining circulation feature."
+        }
+      ],
+      "correctValues": [
+        "A"
+      ],
+      "hint": "Compare the developing stage with the stage after precipitation begins.",
+      "sources": [
+        "Study guide: thunderstorm life cycle",
+        "13 slides 7-8, 27"
+      ],
+      "grading": "Award 2.5 points for the keyed answer and 0 otherwise. Show the chosen-option explanation after submission; when wrong, also show the correct option and its explanation. All four explanations must be available for review."
+    },
+    {
+      "id": "Q17",
+      "number": 17,
+      "section": "short_answer",
+      "type": "constructed_response",
+      "topic": "Moisture patterns: hydrologic cycle",
+      "points": 2.5,
+      "question": "Trace water from the ocean into a cloud, onto land, and back toward the ocean. Name evaporation, condensation, precipitation, and runoff where they occur. Then describe two alternative land-to-atmosphere or land-to-groundwater pathways.",
+      "model_answer": "Liquid ocean water evaporates into vapor. Vapor condenses into cloud droplets, and water falls from clouds as precipitation. Surface runoff can carry it through streams and rivers back toward the ocean. Alternatively, water can infiltrate the soil and move through groundwater, or plants can take it up and release vapor by transpiration.",
+      "rubric": [
+        {
+          "criterion": "Evaporation: liquid ocean water becomes vapor.",
+          "points": 0.5,
+          "explanation": "Evaporation transfers water from a liquid reservoir into the atmosphere as gas."
+        },
+        {
+          "criterion": "Condensation: vapor forms liquid cloud droplets.",
+          "points": 0.5,
+          "explanation": "Cloud droplets form through the gas-to-liquid phase change."
+        },
+        {
+          "criterion": "Precipitation: water falls from a cloud to the surface.",
+          "points": 0.5,
+          "explanation": "Precipitation transfers cloud water or ice toward the ground."
+        },
+        {
+          "criterion": "Runoff: surface water moves toward streams, rivers, or the ocean.",
+          "points": 0.5,
+          "explanation": "Runoff is flow across the land surface rather than into the ground."
+        },
+        {
+          "criterion": "Two alternate pathways: infiltration/groundwater and transpiration, .25 points each.",
+          "points": 0.5,
+          "explanation": "Infiltration puts water into the ground, while transpiration returns water vapor from plants to the atmosphere."
+        }
+      ],
+      "common_errors": [
+        {
+          "error": "Calling infiltration evaporation",
+          "feedback": "Infiltration moves liquid water into soil; evaporation changes liquid to vapor."
+        },
+        {
+          "error": "Calling a visible cloud water vapor",
+          "feedback": "Visible cloud particles are droplets or ice; water vapor itself is invisible."
+        }
+      ],
+      "hint": "Follow the water’s location and phase at each step.",
+      "sources": [
+        "Study guide: hydrologic cycle",
+        "08 slides 2-3, 8"
+      ],
+      "grading": "Evaluate meaning and reasoning against the frozen rubric. Accept scientifically equivalent wording and equivalent units where allowed. Do not use exact-keyword matching. Award partial credit for demonstrated components. Explain credit earned and each material error, then show the model answer. Do not invent new criteria after seeing the response; explain any genuinely ambiguous scoring judgment."
+    },
+    {
+      "id": "Q18",
+      "number": 18,
+      "section": "short_answer",
+      "type": "constructed_response",
+      "topic": "Moisture patterns: phase changes and energy",
+      "points": 2.5,
+      "question": "Explain why wet skin cools as its water evaporates, and why condensation in a rising cloud can warm the surrounding cloud air. Identify each phase change and the direction of energy transfer.",
+      "model_answer": "Evaporation changes liquid water on the skin into vapor. It absorbs energy from the skin and its surroundings, so the skin cools. Condensation changes vapor into liquid droplets and releases latent heat into the surrounding air. This release offsets some of the cooling caused by expansion as the air rises.",
+      "rubric": [
+        {
+          "criterion": "Identifies evaporation as liquid to vapor.",
+          "points": 0.5,
+          "explanation": "A phase change must be distinguished from simply moving liquid water."
+        },
+        {
+          "criterion": "States that evaporation absorbs energy from skin/surroundings and cools them.",
+          "points": 0.75,
+          "explanation": "The energy required for evaporation is taken from the nearby material."
+        },
+        {
+          "criterion": "Identifies condensation as vapor to liquid.",
+          "points": 0.5,
+          "explanation": "The cloud-droplet change is gas to liquid."
+        },
+        {
+          "criterion": "States that condensation releases latent heat to air and partly offsets expansion cooling.",
+          "points": 0.75,
+          "explanation": "Condensation reduces the rate of cooling; a rising saturated parcel can still cool overall."
+        }
+      ],
+      "common_errors": [
+        {
+          "error": "Saying evaporation releases heat into the skin",
+          "feedback": "Evaporation absorbs energy from the surroundings. Condensation is the reverse change and releases energy."
+        },
+        {
+          "error": "Saying condensation stops all cooling in rising air",
+          "feedback": "Latent heating offsets only part of expansion cooling; saturated rising air usually still cools."
+        }
+      ],
+      "hint": "Consider where the energy needed to separate water molecules comes from.",
+      "sources": [
+        "Study guide: phase-change heat",
+        "08 slides 18-19",
+        "10 slide 8"
+      ],
+      "grading": "Evaluate meaning and reasoning against the frozen rubric. Accept scientifically equivalent wording and equivalent units where allowed. Do not use exact-keyword matching. Award partial credit for demonstrated components. Explain credit earned and each material error, then show the model answer. Do not invent new criteria after seeing the response; explain any genuinely ambiguous scoring judgment."
+    },
+    {
+      "id": "Q19",
+      "number": 19,
+      "section": "short_answer",
+      "type": "constructed_response",
+      "topic": "Moisture patterns: RH and dew-point changes",
+      "points": 2.5,
+      "question": "At approximately constant pressure, describe the changes in (a) relative humidity during nighttime cooling, (b) relative humidity during daytime warming, and (c) dew point during those temperature changes, assuming vapor content stays fixed and saturation is not reached. Then state what adding or removing vapor does to RH and dew point if temperature is held fixed.",
+      "model_answer": "Nighttime cooling raises RH because saturation vapor pressure decreases. Daytime warming lowers RH because saturation vapor pressure increases. Dew point stays approximately unchanged if actual vapor content does not change at constant pressure. At fixed temperature, adding vapor raises actual vapor pressure, dew point, and RH; removing vapor lowers all three.",
+      "rubric": [
+        {
+          "criterion": "Night cooling increases RH before saturation.",
+          "points": 0.5,
+          "explanation": "The saturation requirement decreases as temperature falls."
+        },
+        {
+          "criterion": "Day warming decreases RH with fixed vapor content.",
+          "points": 0.5,
+          "explanation": "The saturation requirement rises as temperature increases."
+        },
+        {
+          "criterion": "Dew point stays approximately fixed during temperature-only changes.",
+          "points": 0.5,
+          "explanation": "Dew point tracks actual vapor pressure rather than air temperature alone."
+        },
+        {
+          "criterion": "Adding vapor at fixed temperature increases RH and dew point.",
+          "points": 0.5,
+          "explanation": "More actual vapor raises the numerator of RH and the saturation temperature associated with it."
+        },
+        {
+          "criterion": "Removing vapor at fixed temperature decreases RH and dew point.",
+          "points": 0.5,
+          "explanation": "Less actual vapor lowers the numerator of RH and dew point."
+        }
+      ],
+      "common_errors": [
+        {
+          "error": "Saying high RH always means more water vapor than low RH",
+          "feedback": "RH depends on both actual vapor and temperature. Dew point is a more direct indicator of actual vapor pressure."
+        },
+        {
+          "error": "Saying dew point always follows temperature",
+          "feedback": "Temperature can change while dew point stays approximately constant if vapor content and pressure stay fixed."
+        }
+      ],
+      "hint": "Analyze temperature changes separately from actual vapor-content changes.",
+      "sources": [
+        "Study guide: daily RH and addition/removal of vapor",
+        "08 slides 14-16"
+      ],
+      "grading": "Evaluate meaning and reasoning against the frozen rubric. Accept scientifically equivalent wording and equivalent units where allowed. Do not use exact-keyword matching. Award partial credit for demonstrated components. Explain credit earned and each material error, then show the model answer. Do not invent new criteria after seeing the response; explain any genuinely ambiguous scoring judgment."
+    },
+    {
+      "id": "Q20",
+      "number": 20,
+      "section": "short_answer",
+      "type": "constructed_response",
+      "topic": "Fog and clouds: three ways to reach saturation",
+      "points": 2.5,
+      "question": "State three general routes by which near-surface air can reach saturation and form fog. Explain them using air temperature and dew point.",
+      "model_answer": "First, cool the air toward its dew point without a large initial vapor change. Second, add water vapor so the dew point rises toward the air temperature. Third, combine cooling with added vapor, so temperature falls while dew point rises. Suitable condensation nuclei allow the saturated air to form droplets.",
+      "rubric": [
+        {
+          "criterion": "Cooling air temperature toward dew point.",
+          "points": 1,
+          "explanation": "Cooling reduces saturation vapor pressure until the air can reach saturation."
+        },
+        {
+          "criterion": "Adding vapor so dew point rises toward temperature.",
+          "points": 1,
+          "explanation": "Increasing actual vapor pressure raises dew point and RH."
+        },
+        {
+          "criterion": "Combining cooling with added vapor.",
+          "points": 0.5,
+          "explanation": "Both changes can help close the temperature–dew point gap."
+        }
+      ],
+      "common_errors": [
+        {
+          "error": "Calling warming alone a route to fog at fixed vapor content",
+          "feedback": "Warming raises saturation vapor pressure and lowers RH when vapor content is fixed."
+        },
+        {
+          "error": "Saying all fog must form by rising air",
+          "feedback": "Surface cooling and vapor addition or mixing can form fog without a lifted parcel. Upslope fog is one example that does involve lifting."
+        }
+      ],
+      "hint": "The temperature–dew point gap can close from either side.",
+      "sources": [
+        "Study guide: three ways fog forms",
+        "11 slide 6"
+      ],
+      "grading": "Evaluate meaning and reasoning against the frozen rubric. Accept scientifically equivalent wording and equivalent units where allowed. Do not use exact-keyword matching. Award partial credit for demonstrated components. Explain credit earned and each material error, then show the model answer. Do not invent new criteria after seeing the response; explain any genuinely ambiguous scoring judgment."
+    },
+    {
+      "id": "Q21",
+      "number": 21,
+      "section": "short_answer",
+      "type": "constructed_response",
+      "topic": "Fog and clouds: advection versus steam fog",
+      "points": 2.5,
+      "question": "Compare advection fog with steam fog. For each, state whether the air is initially warmer or colder than the surface and explain the main process that leads toward saturation.",
+      "model_answer": "Advection fog commonly forms when relatively warm moist air moves over a colder surface and cools to saturation. Steam fog commonly forms when relatively cold air passes over warmer water or another warm wet surface; evaporation adds vapor, and mixing helps the moist air reach saturation.",
+      "rubric": [
+        {
+          "criterion": "Advection case: relatively warm moist air over a colder surface.",
+          "points": 0.5,
+          "explanation": "The temperature contrast allows cooling from below."
+        },
+        {
+          "criterion": "Advection mechanism: cooling of moving air toward its dew point.",
+          "points": 0.75,
+          "explanation": "Horizontal transport over the cold surface is the distinguishing mechanism."
+        },
+        {
+          "criterion": "Steam case: relatively cold air over a warmer wet surface.",
+          "points": 0.5,
+          "explanation": "The warm water or wet surface supplies vapor to colder air."
+        },
+        {
+          "criterion": "Steam mechanism: evaporation and mixing help air reach saturation.",
+          "points": 0.75,
+          "explanation": "Adding vapor and mixing with cold air favor droplet formation."
+        }
+      ],
+      "common_errors": [
+        {
+          "error": "Reversing the warm/cold arrangement",
+          "feedback": "Advection fog involves cooling warmer air over a colder surface; steam fog involves vapor supplied to colder air by warmer water."
+        },
+        {
+          "error": "Describing the visible steam fog as pure water vapor",
+          "feedback": "The visible fog consists of tiny droplets. The vapor being added is invisible."
+        }
+      ],
+      "hint": "Compare which is warmer: the air or the surface beneath it.",
+      "sources": [
+        "Study guide: advection and steam fog",
+        "11 slides 14, 19-21"
+      ],
+      "grading": "Evaluate meaning and reasoning against the frozen rubric. Accept scientifically equivalent wording and equivalent units where allowed. Do not use exact-keyword matching. Award partial credit for demonstrated components. Explain credit earned and each material error, then show the model answer. Do not invent new criteria after seeing the response; explain any genuinely ambiguous scoring judgment."
+    },
+    {
+      "id": "Q22",
+      "number": 22,
+      "section": "short_answer",
+      "type": "constructed_response",
+      "topic": "Fog and clouds: dew, frost, and nuclei",
+      "points": 2.5,
+      "question": "Distinguish dew from frost by phase change and surface conditions. Also explain why an existing surface or a cloud condensation nucleus helps water form droplets or ice.",
+      "model_answer": "Dew forms when vapor condenses into liquid on a surface cool enough to reach saturation with respect to liquid water, usually near or below the air’s dew point. Frost forms by deposition of vapor directly into ice on a sufficiently cold surface below 0 C, with saturation relative to ice. An existing surface or suitable nucleus gives water molecules a preferred site to collect, making droplet or ice formation easier. Frozen dew involves liquid freezing first and is a different pathway from direct deposition.",
+      "rubric": [
+        {
+          "criterion": "Dew is vapor-to-liquid condensation.",
+          "points": 0.5,
+          "explanation": "Dew is liquid produced on a surface."
+        },
+        {
+          "criterion": "Frost is direct vapor-to-ice deposition.",
+          "points": 0.5,
+          "explanation": "Direct frost formation does not require an intermediate liquid phase."
+        },
+        {
+          "criterion": "Surface cooling brings local air/water vapor to saturation.",
+          "points": 0.5,
+          "explanation": "A cool surface can create saturation immediately next to it even when air farther away is unsaturated."
+        },
+        {
+          "criterion": "Frost requires a surface below freezing; distinguish it from freezing existing dew.",
+          "points": 0.5,
+          "explanation": "Surface temperature and the phase-change path both matter."
+        },
+        {
+          "criterion": "A suitable existing surface/nucleus facilitates condensation or deposition.",
+          "points": 0.5,
+          "explanation": "Molecules collect more readily on a suitable surface than by creating a new particle from vapor alone."
+        }
+      ],
+      "common_errors": [
+        {
+          "error": "Calling frost ordinary liquid dew at any temperature",
+          "feedback": "Frost consists of ice. Direct frost formation is deposition onto a below-freezing surface."
+        },
+        {
+          "error": "Requiring the entire surrounding air mass to be below freezing",
+          "feedback": "The surface can be colder than the surrounding air, so local surface conditions must be considered."
+        }
+      ],
+      "hint": "Name the starting and ending phase, then think about the surface temperature.",
+      "sources": [
+        "Study guide: dew/frost and nuclei",
+        "11 slides 3-4, 41",
+        "10 slide 9"
+      ],
+      "grading": "Evaluate meaning and reasoning against the frozen rubric. Accept scientifically equivalent wording and equivalent units where allowed. Do not use exact-keyword matching. Award partial credit for demonstrated components. Explain credit earned and each material error, then show the model answer. Do not invent new criteria after seeing the response; explain any genuinely ambiguous scoring judgment."
+    },
+    {
+      "id": "Q23",
+      "number": 23,
+      "section": "short_answer",
+      "type": "constructed_response",
+      "topic": "Fog and clouds: cloud classification",
+      "points": 2.5,
+      "question": "Classify cirrus, altostratus, and stratus as high, middle, or low clouds. Describe their usual particle composition, including whether below-freezing liquid is possible.",
+      "model_answer": "Cirrus is a high cloud composed predominantly of ice crystals. Altostratus is a middle cloud that can contain liquid droplets, supercooled droplets, and ice, depending on temperature and depth. Stratus is a low cloud commonly made of liquid droplets; those droplets can be supercooled below 0 C. Temperature below freezing does not by itself prove that a cloud is entirely ice.",
+      "rubric": [
+        {
+          "criterion": "Cirrus: high.",
+          "points": 0.5,
+          "explanation": "Cirro identifies high cloud types."
+        },
+        {
+          "criterion": "Altostratus: middle.",
+          "points": 0.5,
+          "explanation": "Alto identifies the middle-cloud family."
+        },
+        {
+          "criterion": "Stratus: low.",
+          "points": 0.5,
+          "explanation": "Stratus is a low layered cloud type."
+        },
+        {
+          "criterion": "Cirrus ice and stratus liquid/supercooled liquid correctly described.",
+          "points": 0.5,
+          "explanation": "Cloud particles must be distinguished from invisible vapor and their phase must not be inferred solely from air temperature."
+        },
+        {
+          "criterion": "Altostratus may contain mixed phases, including supercooled water.",
+          "points": 0.5,
+          "explanation": "A middle cloud can contain more than one water phase."
+        }
+      ],
+      "common_errors": [
+        {
+          "error": "Saying every cloud is water vapor",
+          "feedback": "Clouds are visible droplets or ice particles; water vapor itself is invisible."
+        },
+        {
+          "error": "Saying every cloud below 0 C is entirely ice",
+          "feedback": "Supercooled liquid can coexist with ice, especially in mixed-phase clouds."
+        }
+      ],
+      "hint": "Use cloud prefixes for height, but consider temperature and nucleation for composition.",
+      "sources": [
+        "Study guide: cloud height and composition",
+        "11 slides 23-24"
+      ],
+      "grading": "Evaluate meaning and reasoning against the frozen rubric. Accept scientifically equivalent wording and equivalent units where allowed. Do not use exact-keyword matching. Award partial credit for demonstrated components. Explain credit earned and each material error, then show the model answer. Do not invent new criteria after seeing the response; explain any genuinely ambiguous scoring judgment."
+    },
+    {
+      "id": "Q24",
+      "number": 24,
+      "section": "short_answer",
+      "type": "constructed_response",
+      "topic": "Precipitation: snow crystals and hail",
+      "points": 2.5,
+      "question": "Explain how temperature and moisture conditions influence snow-crystal shape. Then explain the two atmospheric ingredients that allow a hailstone to grow large.",
+      "model_answer": "Snow-crystal habit depends on temperature and supersaturation: different temperatures favor plates or columns, and higher supersaturation often favors more elaborate branching. Dendritic growth is especially favored near -15 C when moisture is sufficient. Large hail requires a strong updraft that supports the stone long enough to grow and a supply of supercooled liquid drops that freeze onto it. Clear and cloudy layers reflect different growth conditions; layers do not simply count trips up and down the cloud.",
+      "rubric": [
+        {
+          "criterion": "Snow shape depends on temperature, with a valid example or clear explanation.",
+          "points": 0.5,
+          "explanation": "Temperature changes how ice grows along different crystal directions."
+        },
+        {
+          "criterion": "Snow complexity depends on moisture/supersaturation.",
+          "points": 0.5,
+          "explanation": "Vapor supply affects how rapidly and intricately crystals can branch."
+        },
+        {
+          "criterion": "A strong updraft supports hail and allows growth time.",
+          "points": 0.75,
+          "explanation": "A stone that falls out too soon cannot continue collecting much water."
+        },
+        {
+          "criterion": "Supercooled liquid drops freeze onto the hailstone.",
+          "points": 0.75,
+          "explanation": "Hail grows primarily by collecting liquid water that freezes; ice alone at very cold cloud tops is not an adequate description."
+        }
+      ],
+      "common_errors": [
+        {
+          "error": "Calling snowflakes frozen raindrops",
+          "feedback": "Snow crystals grow from vapor by deposition. Refrozen raindrops produce pellets such as sleet."
+        },
+        {
+          "error": "Saying hail size depends only on cold surface temperature",
+          "feedback": "Hail grows inside thunderstorm updrafts. Updraft strength and supercooled liquid supply matter more directly than ground temperature."
+        }
+      ],
+      "hint": "Separate crystal growth from vapor and hail growth by collecting liquid drops.",
+      "sources": [
+        "Study guide: snow shape and hail",
+        "12 slides 15-17, 22"
+      ],
+      "grading": "Evaluate meaning and reasoning against the frozen rubric. Accept scientifically equivalent wording and equivalent units where allowed. Do not use exact-keyword matching. Award partial credit for demonstrated components. Explain credit earned and each material error, then show the model answer. Do not invent new criteria after seeing the response; explain any genuinely ambiguous scoring judgment."
+    },
+    {
+      "id": "Q25",
+      "number": 25,
+      "section": "short_answer",
+      "type": "constructed_response",
+      "topic": "Precipitation: importance and measurement limits",
+      "points": 2.5,
+      "question": "Give two distinct reasons accurate precipitation measurements matter. Then describe one reason a rain or snow measurement may be inaccurate.",
+      "model_answer": "Measurements support flood forecasting and help estimate water supply, drought, irrigation needs, or mountain snowpack. Errors can result from wind carrying precipitation past a gauge, tipping-bucket losses in intense rain, evaporation, melting, snow compaction, drifting, or an unrepresentative measuring location. Snow depth and liquid water equivalent measure different things, and the snow-to-water ratio varies.",
+      "rubric": [
+        {
+          "criterion": "First legitimate use of precipitation measurements.",
+          "points": 1,
+          "explanation": "The use must connect the measurement to a real forecasting, water-management, or climate need."
+        },
+        {
+          "criterion": "Second distinct legitimate use.",
+          "points": 1,
+          "explanation": "Two rephrasings of the same use count only once."
+        },
+        {
+          "criterion": "One valid measurement error with a brief causal explanation.",
+          "points": 0.5,
+          "explanation": "For example, wind can cause gauge undercatch or move snow into uneven drifts."
+        }
+      ],
+      "common_errors": [
+        {
+          "error": "Treating every inch of snow as the same amount of liquid water",
+          "feedback": "Snow density varies, so water equivalent cannot be determined from depth alone without an assumption or measurement."
+        },
+        {
+          "error": "Assuming any single snowdrift represents the whole area",
+          "feedback": "Wind redistributes snow. Several representative measurements may be needed."
+        }
+      ],
+      "hint": "Think of both too much water and too little water.",
+      "sources": [
+        "Study guide: precipitation measurement importance",
+        "12 slides 23-25"
+      ],
+      "grading": "Evaluate meaning and reasoning against the frozen rubric. Accept scientifically equivalent wording and equivalent units where allowed. Do not use exact-keyword matching. Award partial credit for demonstrated components. Explain credit earned and each material error, then show the model answer. Do not invent new criteria after seeing the response; explain any genuinely ambiguous scoring judgment."
+    },
+    {
+      "id": "Q26",
+      "number": 26,
+      "section": "short_answer",
+      "type": "constructed_response",
+      "topic": "Precipitation: vertical temperature profiles",
+      "points": 2.5,
+      "question": "For these simplified profiles, identify the surface precipitation: A, snow forms in cloud and encounters sufficiently cold air all the way down; B, snow completely melts and the warm layer extends to the ground; C, snow melts and then enters a deep cold layer where drops refreeze before landing; D, snow melts and then enters a shallow cold layer where drops remain liquid until hitting a below-freezing surface. Explain the key difference between C and D.",
+      "model_answer": "A gives snow. B gives rain. C gives sleet because drops refreeze into pellets in the air. D gives freezing rain because supercooled liquid drops freeze on contact with a cold surface. The near-surface cold layer in C is deep/cold enough for in-air refreezing, while in D it is not.",
+      "rubric": [
+        {
+          "criterion": "A: snow.",
+          "points": 0.5,
+          "explanation": "The crystals survive the cold descent without melting."
+        },
+        {
+          "criterion": "B: rain.",
+          "points": 0.5,
+          "explanation": "The snow has melted and remains liquid to the surface."
+        },
+        {
+          "criterion": "C: sleet.",
+          "points": 0.5,
+          "explanation": "The drops freeze into pellets before landing."
+        },
+        {
+          "criterion": "D: freezing rain.",
+          "points": 0.5,
+          "explanation": "Supercooled drops remain liquid until contacting the cold surface."
+        },
+        {
+          "criterion": "Explains cold-layer depth/temperature and in-air versus contact freezing.",
+          "points": 0.5,
+          "explanation": "Both cases can have below-freezing ground-level air, so surface temperature alone does not distinguish them."
+        }
+      ],
+      "common_errors": [
+        {
+          "error": "Choosing snow for every case with a cold surface",
+          "feedback": "A warm layer above the surface can melt snow before it reaches the ground."
+        },
+        {
+          "error": "Swapping sleet and freezing rain",
+          "feedback": "Sleet is already frozen when it lands; freezing rain lands as liquid and then freezes."
+        }
+      ],
+      "hint": "Track each particle’s phase all the way from cloud to ground.",
+      "sources": [
+        "Study guide: precipitation profiles",
+        "12 slides 9-12, 19-21"
+      ],
+      "grading": "Evaluate meaning and reasoning against the frozen rubric. Accept scientifically equivalent wording and equivalent units where allowed. Do not use exact-keyword matching. Award partial credit for demonstrated components. Explain credit earned and each material error, then show the model answer. Do not invent new criteria after seeing the response; explain any genuinely ambiguous scoring judgment."
+    },
+    {
+      "id": "Q27",
+      "number": 27,
+      "section": "short_answer",
+      "type": "constructed_response",
+      "topic": "Pressure and wind: three forces",
+      "points": 2.5,
+      "question": "Describe the directions of the pressure-gradient force, Coriolis effect, and friction relative to pressure or wind in the Northern Hemisphere. Explain why friction causes a surface wind to cross isobars toward lower pressure.",
+      "model_answer": "The pressure-gradient force points from high pressure toward low pressure, perpendicular to isobars. Coriolis deflects moving air to the right in the Northern Hemisphere. Friction acts opposite the wind and slows it, mainly near the surface. Slower motion weakens Coriolis relative to the pressure-gradient force, so the wind can cross isobars toward lower pressure instead of remaining parallel to them.",
+      "rubric": [
+        {
+          "criterion": "PGF points high to low across isobars.",
+          "points": 0.75,
+          "explanation": "Horizontal pressure differences create the accelerating force."
+        },
+        {
+          "criterion": "Coriolis is to the right of motion in the Northern Hemisphere.",
+          "points": 0.75,
+          "explanation": "The reference is the parcel’s motion, not a fixed compass direction."
+        },
+        {
+          "criterion": "Friction opposes wind and slows it near the surface.",
+          "points": 0.5,
+          "explanation": "Surface roughness transfers momentum out of the moving air."
+        },
+        {
+          "criterion": "Slower wind weakens Coriolis and permits crossing toward lower pressure.",
+          "points": 0.5,
+          "explanation": "This explains the change from an idealized frictionless parallel flow."
+        }
+      ],
+      "common_errors": [
+        {
+          "error": "Saying Coriolis always points east",
+          "feedback": "Right of the motion changes with wind direction. It is not always east on a map."
+        },
+        {
+          "error": "Saying friction becomes strongest far above the ground",
+          "feedback": "The course’s large-scale friction effect is concentrated near the surface and its boundary layer."
+        }
+      ],
+      "hint": "Start with frictionless parallel flow, then ask what slowing the wind changes.",
+      "sources": [
+        "Study guide: PGF, Coriolis, friction",
+        "15 slides 7-11"
+      ],
+      "grading": "Evaluate meaning and reasoning against the frozen rubric. Accept scientifically equivalent wording and equivalent units where allowed. Do not use exact-keyword matching. Award partial credit for demonstrated components. Explain credit earned and each material error, then show the model answer. Do not invent new criteria after seeing the response; explain any genuinely ambiguous scoring judgment."
+    },
+    {
+      "id": "Q28",
+      "number": 28,
+      "section": "short_answer",
+      "type": "constructed_response",
+      "topic": "Pressure and wind: lows, highs, and vertical circulation",
+      "points": 2.5,
+      "question": "Describe the surface rotation, inward/outward flow, and usual vertical motion for a Northern Hemisphere low and high. State which upper-air pattern supports a strengthening low and which supports a strengthening high.",
+      "model_answer": "A Northern Hemisphere surface low has counterclockwise, inward flow and rising air. A surface high has clockwise, outward flow and sinking air. Divergence aloft supports a strengthening low when column mass removal exceeds low-level mass addition. Convergence aloft supports a strengthening high when column mass addition exceeds low-level removal.",
+      "rubric": [
+        {
+          "criterion": "Low: counterclockwise, inward, rising.",
+          "points": 0.75,
+          "explanation": "Surface convergence near a low commonly feeds ascent."
+        },
+        {
+          "criterion": "High: clockwise, outward, sinking.",
+          "points": 0.75,
+          "explanation": "Surface divergence near a high is commonly supplied by subsiding air."
+        },
+        {
+          "criterion": "Divergence aloft supports the strengthening low.",
+          "points": 0.5,
+          "explanation": "Removing sufficient mass from the column helps lower surface pressure."
+        },
+        {
+          "criterion": "Convergence aloft supports the strengthening high.",
+          "points": 0.5,
+          "explanation": "Adding sufficient mass to the column helps raise surface pressure."
+        }
+      ],
+      "common_errors": [
+        {
+          "error": "Giving Southern Hemisphere rotation for a Northern Hemisphere question",
+          "feedback": "In the Northern Hemisphere, lows rotate counterclockwise and highs clockwise."
+        },
+        {
+          "error": "Using divergence at the surface as the support pattern for a strong low",
+          "feedback": "Surface lows have convergent surface flow in this model; the supporting divergence is aloft."
+        }
+      ],
+      "hint": "Keep surface flow and flow aloft in separate parts of the explanation.",
+      "sources": [
+        "Study guide: cyclone, anticyclone, strong low/high",
+        "15 slides 15-21"
+      ],
+      "grading": "Evaluate meaning and reasoning against the frozen rubric. Accept scientifically equivalent wording and equivalent units where allowed. Do not use exact-keyword matching. Award partial credit for demonstrated components. Explain credit earned and each material error, then show the model answer. Do not invent new criteria after seeing the response; explain any genuinely ambiguous scoring judgment."
+    },
+    {
+      "id": "Q29",
+      "number": 29,
+      "section": "short_answer",
+      "type": "constructed_response",
+      "topic": "Atmospheric stability: lifting and cloud formation",
+      "points": 2.5,
+      "question": "Name and briefly explain four distinct mechanisms that lift air. Then state the role of cloud condensation nuclei or aerosols in cloud formation.",
+      "model_answer": "Convection lifts air that is warmer and less dense than its surroundings. Frontal lifting forces warmer air up over denser cold air. Orographic lifting forces air up a mountain slope. Surface convergence forces incoming air upward. Divergence aloft can also support ascent and is an acceptable alternative when explained as a distinct mechanism. As rising air cools to saturation, condensation nuclei provide surfaces on which cloud droplets can grow.",
+      "rubric": [
+        {
+          "criterion": "First valid distinct lifting mechanism explained.",
+          "points": 0.5,
+          "explanation": "A mechanism must explain upward motion rather than only name a cloud."
+        },
+        {
+          "criterion": "Second valid distinct lifting mechanism explained.",
+          "points": 0.5,
+          "explanation": "Different labels for the same mechanism should not be double counted."
+        },
+        {
+          "criterion": "Third valid distinct lifting mechanism explained.",
+          "points": 0.5,
+          "explanation": "Examples include convection, fronts, terrain, and convergence."
+        },
+        {
+          "criterion": "Fourth valid distinct lifting mechanism explained.",
+          "points": 0.5,
+          "explanation": "Upper-level divergence is a valid alternative if explained as distinct from the other mechanisms used."
+        },
+        {
+          "criterion": "Nuclei provide sites for condensation after sufficient cooling/saturation.",
+          "points": 0.5,
+          "explanation": "Cooling changes saturation conditions, while nuclei facilitate formation of droplets."
+        }
+      ],
+      "common_errors": [
+        {
+          "error": "Saying air rises because pressure increases with height",
+          "feedback": "Pressure generally decreases with height. As a lifted parcel expands into lower pressure, it cools."
+        },
+        {
+          "error": "Counting two names for the same lifting mechanism as two answers",
+          "feedback": "Credit is for four distinct physical mechanisms, not four synonyms."
+        }
+      ],
+      "hint": "Think of heating, boundaries, terrain, and streams of air coming together.",
+      "sources": [
+        "Study guide: four lifting mechanisms and cloud nuclei",
+        "10 slides 3-9"
+      ],
+      "grading": "Evaluate meaning and reasoning against the frozen rubric. Accept scientifically equivalent wording and equivalent units where allowed. Do not use exact-keyword matching. Award partial credit for demonstrated components. Explain credit earned and each material error, then show the model answer. Do not invent new criteria after seeing the response; explain any genuinely ambiguous scoring judgment."
+    },
+    {
+      "id": "Q30",
+      "number": 30,
+      "section": "short_answer",
+      "type": "constructed_response",
+      "topic": "Atmospheric stability: adiabatic changes and buoyancy",
+      "points": 2.5,
+      "question": "For an unsaturated parcel with no heat exchange or vapor addition/removal, describe pressure, temperature, and relative humidity as it rises and as it sinks. Then explain what stability and buoyancy tell you about a parcel displaced upward.",
+      "model_answer": "As it rises, pressure decreases, the parcel expands and cools, and RH increases before saturation. As it sinks, pressure increases, the parcel compresses and warms, and RH decreases. Adiabatic means no heat exchange across the parcel boundary, not no temperature change. At the same pressure, a warmer and less dense parcel is positively buoyant and tends to keep rising; a cooler and denser one tends to sink back. Stability describes this response to displacement.",
+      "rubric": [
+        {
+          "criterion": "Rising: lower pressure, expansion/cooling, higher RH.",
+          "points": 1,
+          "explanation": "Expansion does work and reduces temperature; falling saturation vapor pressure raises RH."
+        },
+        {
+          "criterion": "Sinking: higher pressure, compression/warming, lower RH.",
+          "points": 1,
+          "explanation": "Compression raises temperature and the saturation requirement increases."
+        },
+        {
+          "criterion": "Stability/buoyancy correctly connected to parcel-versus-environment density or temperature.",
+          "points": 0.5,
+          "explanation": "An upward displacement is unstable when buoyancy favors continued ascent and stable when it favors return."
+        }
+      ],
+      "common_errors": [
+        {
+          "error": "Saying adiabatic means temperature is constant",
+          "feedback": "Adiabatic prohibits heat exchange; work during expansion or compression can still change temperature."
+        },
+        {
+          "error": "Saying any warm parcel must rise regardless of its surroundings",
+          "feedback": "Buoyancy depends on the parcel relative to the surrounding air at the same pressure."
+        }
+      ],
+      "hint": "Compare the parcel with its environment, and distinguish heat transfer from work.",
+      "sources": [
+        "Study guide: adiabatic motion, stability, buoyancy",
+        "10 slides 4-17, 20-23"
+      ],
+      "grading": "Evaluate meaning and reasoning against the frozen rubric. Accept scientifically equivalent wording and equivalent units where allowed. Do not use exact-keyword matching. Award partial credit for demonstrated components. Explain credit earned and each material error, then show the model answer. Do not invent new criteria after seeing the response; explain any genuinely ambiguous scoring judgment."
+    },
+    {
+      "id": "Q31",
+      "number": 31,
+      "section": "short_answer",
+      "type": "constructed_response",
+      "topic": "Atmospheric stability: lapse-rate calculation",
+      "points": 2.5,
+      "question": "A parcel starts at 26 C at 0 km and reaches its LCL at 1 km. Use a dry adiabatic cooling rate of 10 C/km below the LCL and a saturated rate of 6 C/km above it. The environment also starts at 26 C but cools with height at 8 C/km. Find (a) parcel temperature at 1 km, (b) parcel temperature at 3 km, (c) environmental temperature at 3 km, (d) the parcel’s buoyancy at 3 km, and (e) whether the environmental lapse rate is absolutely stable, conditionally unstable, or absolutely unstable.",
+      "model_answer": "At 1 km the parcel is 26 - 10 = 16 C. From 1 to 3 km it cools another 2 x 6 = 12 C, so it is 4 C at 3 km. The environment at 3 km is 26 - 3 x 8 = 2 C. The parcel is 2 C warmer than the environment and positively buoyant at that height. The 8 C/km environmental rate lies between the 6 C/km saturated and 10 C/km dry rates, so it is conditionally unstable. The environmental lapse rate describes the surrounding atmosphere; the adiabatic rates describe a moving parcel.",
+      "rubric": [
+        {
+          "criterion": "Parcel at 1 km: 16 C.",
+          "points": 0.5,
+          "explanation": "26 C minus 1 km times 10 C/km equals 16 C."
+        },
+        {
+          "criterion": "Parcel at 3 km: 4 C.",
+          "points": 0.5,
+          "explanation": "Only the 2 km above the LCL use the 6 C/km rate: 16 - 12 = 4 C."
+        },
+        {
+          "criterion": "Environment at 3 km: 2 C.",
+          "points": 0.5,
+          "explanation": "26 - 3 x 8 = 2 C; do not use the parcel’s rates for the environment."
+        },
+        {
+          "criterion": "Parcel at 3 km is positively buoyant because it is 2 C warmer.",
+          "points": 0.5,
+          "explanation": "At equal pressure, the warmer parcel is less dense and tends to continue rising."
+        },
+        {
+          "criterion": "Conditionally unstable, because 6 < 8 < 10 C/km.",
+          "points": 0.5,
+          "explanation": "The environmental rate lies between the saturated and dry parcel-cooling rates."
+        }
+      ],
+      "common_errors": [
+        {
+          "error": "Using 10 C/km for the entire 3 km",
+          "feedback": "The parcel reaches saturation at 1 km, so the next 2 km use the supplied saturated rate."
+        },
+        {
+          "error": "Using 6 C/km for the entire 3 km",
+          "feedback": "The first kilometer is unsaturated and must use 10 C/km."
+        },
+        {
+          "error": "Calling the environmental lapse rate the parcel’s cooling rate",
+          "feedback": "The environmental rate describes temperatures already present around the parcel."
+        }
+      ],
+      "hint": "Break the ascent into 0–1 km and 1–3 km, then compute the environment separately.",
+      "sources": [
+        "Study guide: dry, wet, environmental lapse rates",
+        "10 slides 22-26"
+      ],
+      "grading": "Evaluate meaning and reasoning against the frozen rubric. Accept scientifically equivalent wording and equivalent units where allowed. Do not use exact-keyword matching. Award partial credit for demonstrated components. Explain credit earned and each material error, then show the model answer. Do not invent new criteria after seeing the response; explain any genuinely ambiguous scoring judgment."
+    },
+    {
+      "id": "Q32",
+      "number": 32,
+      "section": "short_answer",
+      "type": "constructed_response",
+      "topic": "Thunderstorms: life cycle and latent energy",
+      "points": 2.5,
+      "question": "Describe the main vertical air motions in the developing, mature, and dissipating stages of a typical single-cell thunderstorm. Name phase changes that help fuel the updraft and phase changes that help cool the downdraft.",
+      "model_answer": "The developing cumulus stage is dominated by an updraft. The mature stage has both an updraft and a precipitation-associated downdraft. During dissipation, the downdraft cuts off the warm moist inflow and overwhelms the updraft. Condensation, freezing, and deposition release latent heat and can support the updraft. Evaporation, melting, and sublimation absorb energy and can cool air, contributing to the downdraft; falling precipitation also exerts drag.",
+      "rubric": [
+        {
+          "criterion": "Developing stage: updraft-dominated.",
+          "points": 0.5,
+          "explanation": "Rising air builds the cloud before a substantial downdraft develops."
+        },
+        {
+          "criterion": "Mature stage: updraft and downdraft together.",
+          "points": 0.5,
+          "explanation": "This is the characteristic mature circulation."
+        },
+        {
+          "criterion": "Dissipating stage: downdraft cuts off inflow/overwhelms the updraft.",
+          "points": 0.5,
+          "explanation": "The cell loses the warm moist supply needed to sustain ascent."
+        },
+        {
+          "criterion": "Correct heat-releasing updraft phase changes with at least two examples.",
+          "points": 0.5,
+          "explanation": "Condensation, freezing, and deposition release latent heat."
+        },
+        {
+          "criterion": "Correct heat-absorbing downdraft phase changes with at least two examples.",
+          "points": 0.5,
+          "explanation": "Evaporation, melting, and sublimation take energy from the surrounding air."
+        }
+      ],
+      "common_errors": [
+        {
+          "error": "Putting the mature stage at downdraft only",
+          "feedback": "Downdraft-dominated loss of the updraft describes dissipation, not maturity."
+        },
+        {
+          "error": "Saying evaporation warms the downdraft",
+          "feedback": "Evaporation absorbs energy and cools the surrounding air, which can increase negative buoyancy."
+        }
+      ],
+      "hint": "Track when precipitation begins and when the inflow supporting the updraft is cut off.",
+      "sources": [
+        "Study guide: thunderstorm life cycle and phase changes",
+        "13 slides 6-9, 27"
+      ],
+      "grading": "Evaluate meaning and reasoning against the frozen rubric. Accept scientifically equivalent wording and equivalent units where allowed. Do not use exact-keyword matching. Award partial credit for demonstrated components. Explain credit earned and each material error, then show the model answer. Do not invent new criteria after seeing the response; explain any genuinely ambiguous scoring judgment."
+    },
+    {
+      "id": "Q33",
+      "number": 33,
+      "section": "map_skills",
+      "type": "map_response",
+      "topic": "Map skills: UTC to Eastern Daylight Time",
+      "points": 2.5,
+      "question": "A weather image is labeled 0000Z on July 18, 2026. Convert this to Eastern DAYLIGHT Time (EDT). Give the local clock time and calendar date. You may use either 24-hour local time or AM/PM.",
+      "model_answer": "0000Z July 18 minus 4 hours is 2000 EDT, or 8:00 PM EDT, on July 17, 2026. The calendar date moves back because the conversion crosses midnight.",
+      "rubric": [
+        {
+          "criterion": "Correct local time: 2000 or 8:00 PM EDT.",
+          "points": 1.5,
+          "explanation": "EDT is UTC minus four hours."
+        },
+        {
+          "criterion": "Correct date: July 17, 2026.",
+          "points": 1,
+          "explanation": "Subtracting four hours from midnight crosses into the previous day."
+        }
+      ],
+      "common_errors": [
+        {
+          "error": "Using a five-hour subtraction",
+          "feedback": "Five hours is the EST offset. The prompt explicitly specifies Eastern Daylight Time, which uses four hours."
+        },
+        {
+          "error": "Keeping July 18 after giving 8 PM",
+          "feedback": "The time conversion crosses midnight, so the local calendar date is July 17."
+        }
+      ],
+      "hint": "EDT is behind UTC. Check whether the date changes when you move the clock backward.",
+      "sources": [
+        "Study guide: UTC/Z and Eastern Daylight conversion"
+      ],
+      "grading": "Evaluate meaning and reasoning against the frozen rubric. Accept scientifically equivalent wording and equivalent units where allowed. Do not use exact-keyword matching. Award partial credit for demonstrated components. Explain credit earned and each material error, then show the model answer. Do not invent new criteria after seeing the response; explain any genuinely ambiguous scoring judgment.",
+      "stimulus_data": {
+        "utc": "2026-07-18T00:00:00Z",
+        "requested_zone": "America/New_York (EDT on this July date)"
+      }
+    },
+    {
+      "id": "Q34",
+      "number": 34,
+      "section": "map_skills",
+      "type": "map_response",
+      "topic": "Map skills: Eastern Daylight Time to UTC",
+      "points": 2.5,
+      "question": "An observation is made at 11:30 PM EDT on July 17, 2026. Give its UTC/Z time in four-digit 24-hour notation and its UTC calendar date.",
+      "model_answer": "11:30 PM EDT is 2330 EDT. Adding four hours gives 0330Z on July 18, 2026. Moving forward across midnight advances the date.",
+      "rubric": [
+        {
+          "criterion": "Correct UTC time: 0330Z.",
+          "points": 1.5,
+          "explanation": "UTC is four hours ahead of EDT on this July date."
+        },
+        {
+          "criterion": "Correct UTC date: July 18, 2026.",
+          "points": 1,
+          "explanation": "Adding four hours to 23:30 crosses midnight into the next day."
+        }
+      ],
+      "common_errors": [
+        {
+          "error": "Subtracting four hours to convert EDT to UTC",
+          "feedback": "That is the direction for converting UTC to EDT. Reverse the operation when converting EDT to UTC."
+        },
+        {
+          "error": "Writing 2730Z without changing the date",
+          "feedback": "UTC clock notation restarts at 0000 after 2359. 23:30 plus four hours becomes 03:30 on the following day."
+        }
+      ],
+      "hint": "Convert to 24-hour time, then move forward to the UTC clock.",
+      "sources": [
+        "Study guide: UTC/Z and Eastern Daylight conversion"
+      ],
+      "grading": "Evaluate meaning and reasoning against the frozen rubric. Accept scientifically equivalent wording and equivalent units where allowed. Do not use exact-keyword matching. Award partial credit for demonstrated components. Explain credit earned and each material error, then show the model answer. Do not invent new criteria after seeing the response; explain any genuinely ambiguous scoring judgment.",
+      "stimulus_data": {
+        "local": "2026-07-17T23:30:00-04:00",
+        "requested_zone": "UTC"
+      }
+    },
+    {
+      "id": "Q35",
+      "number": 35,
+      "section": "map_skills",
+      "type": "map_response",
+      "topic": "Map skills: station temperature and dew point",
+      "points": 2.5,
+      "question": "Use the station-model diagram. Read the air temperature and dew point. The displayed temperature values are in degrees Fahrenheit.",
+      "model_answer": "The temperature is 74 F, shown at the upper left of the station circle. The dew point is 62 F, shown at the lower left.",
+      "rubric": [
+        {
+          "criterion": "Temperature: 74 F.",
+          "points": 1.25,
+          "explanation": "Temperature occupies the upper-left position in this station model."
+        },
+        {
+          "criterion": "Dew point: 62 F.",
+          "points": 1.25,
+          "explanation": "Dew point occupies the lower-left position."
+        }
+      ],
+      "common_errors": [
+        {
+          "error": "Swapping the two values",
+          "feedback": "The upper-left value is temperature and the lower-left value is dew point."
+        },
+        {
+          "error": "Reporting the values as Celsius without conversion",
+          "feedback": "The prompt specifies Fahrenheit. Equivalent converted values of approximately 23.3 C and 16.7 C can be accepted if clearly labeled."
+        }
+      ],
+      "hint": "Identify the standard upper-left and lower-left positions.",
+      "sources": [
+        "Study guide: station model temperature and dew point"
+      ],
+      "grading": "Evaluate meaning and reasoning against the frozen rubric. Accept scientifically equivalent wording and equivalent units where allowed. Do not use exact-keyword matching. Award partial credit for demonstrated components. Explain credit earned and each material error, then show the model answer. Do not invent new criteria after seeing the response; explain any genuinely ambiguous scoring judgment.",
+      "asset": "assets/station_model.png",
+      "stimulus_data": {
+        "temperature_f": 74,
+        "dewpoint_f": 62
+      }
+    },
+    {
+      "id": "Q36",
+      "number": 36,
+      "section": "map_skills",
+      "type": "map_response",
+      "topic": "Map skills: station wind direction and speed",
+      "points": 2.5,
+      "question": "Use the same station-model diagram. From which compass direction is the wind coming, and what is its speed in knots? Interpret each full feather as 10 knots and each half feather as 5 knots.",
+      "model_answer": "The wind comes FROM the northwest and blows toward the southeast. The two full feathers and one half feather total 10 + 10 + 5 = 25 knots.",
+      "rubric": [
+        {
+          "criterion": "Wind comes from northwest, or approximately 315 degrees.",
+          "points": 1.25,
+          "explanation": "The staff extends toward the direction from which the wind comes."
+        },
+        {
+          "criterion": "Wind speed: 25 knots.",
+          "points": 1.25,
+          "explanation": "Two full feathers plus one half feather give 10 + 10 + 5 = 25 knots."
+        }
+      ],
+      "common_errors": [
+        {
+          "error": "Answering southeast as the wind direction",
+          "feedback": "Southeast is where the air is moving toward. Meteorological wind direction names where it comes from."
+        },
+        {
+          "error": "Counting the half feather as another 10 knots",
+          "feedback": "The shorter feather contributes five knots, so the speed is 25 rather than 30 knots."
+        }
+      ],
+      "hint": "Read direction from the staff and speed from the feathers, as separate steps.",
+      "sources": [
+        "Study guide: station model wind direction and speed"
+      ],
+      "grading": "Evaluate meaning and reasoning against the frozen rubric. Accept scientifically equivalent wording and equivalent units where allowed. Do not use exact-keyword matching. Award partial credit for demonstrated components. Explain credit earned and each material error, then show the model answer. Do not invent new criteria after seeing the response; explain any genuinely ambiguous scoring judgment.",
+      "asset": "assets/station_model.png",
+      "stimulus_data": {
+        "wind_from_degrees": 315,
+        "full_feathers": 2,
+        "half_feathers": 1,
+        "wind_knots": 25
+      }
+    },
+    {
+      "id": "Q37",
+      "number": 37,
+      "section": "map_skills",
+      "type": "map_response",
+      "topic": "Map skills: radar reflectivity",
+      "points": 2.5,
+      "question": "Use the schematic radar map and its legend. Compare the CORES of cells A, B, and C. Which core is strongest, which is weakest, and what reflectivity range is shown at the center of cell B?",
+      "model_answer": "Cell B has the strongest core and cell C the weakest. B has a 50-59 dBZ core; A has a 30-39 dBZ core and C a 20-29 dBZ core. Higher reflectivity generally indicates a stronger return from precipitation particles. These colors represent reflectivity, not air temperature, and do not by themselves prove a tornado or other specific severe hazard.",
+      "rubric": [
+        {
+          "criterion": "Strongest core: B.",
+          "points": 1,
+          "explanation": "B occupies the highest-reflectivity core category among the three cells."
+        },
+        {
+          "criterion": "Weakest core: C.",
+          "points": 1,
+          "explanation": "C has the lowest core category; compare cores rather than the weaker outer edges."
+        },
+        {
+          "criterion": "Cell B center: 50-59 dBZ.",
+          "points": 0.5,
+          "explanation": "The red core corresponds to the red 50-59 dBZ legend bin."
+        }
+      ],
+      "common_errors": [
+        {
+          "error": "Comparing only the size of the cells",
+          "feedback": "The question asks about core strength. Use the core color and reflectivity legend rather than area alone."
+        },
+        {
+          "error": "Interpreting red as a warmer air temperature",
+          "feedback": "The map is radar reflectivity. Its legend reports dBZ, not a temperature."
+        }
+      ],
+      "hint": "Match each cell’s center color to the dBZ legend.",
+      "sources": [
+        "Study guide: stronger versus weaker radar cells"
+      ],
+      "grading": "Evaluate meaning and reasoning against the frozen rubric. Accept scientifically equivalent wording and equivalent units where allowed. Do not use exact-keyword matching. Award partial credit for demonstrated components. Explain credit earned and each material error, then show the model answer. Do not invent new criteria after seeing the response; explain any genuinely ambiguous scoring judgment.",
+      "asset": "assets/radar_cells.png",
+      "stimulus_data": {
+        "core_dbz": {
+          "A": 35,
+          "B": 55,
+          "C": 25
+        },
+        "bins": [
+          [
+            20,
+            29
+          ],
+          [
+            30,
+            39
+          ],
+          [
+            40,
+            49
+          ],
+          [
+            50,
+            59
+          ],
+          [
+            60,
+            69
+          ]
+        ]
+      }
+    },
+    {
+      "id": "Q38",
+      "number": 38,
+      "section": "map_skills",
+      "type": "map_response",
+      "topic": "Map skills: isobar spacing and wind speed",
+      "points": 2.5,
+      "question": "Use the schematic isobar map. Other factors being comparable, should location A or B have the stronger wind? Explain using the spacing of equal-interval isobars.",
+      "model_answer": "B should have the stronger wind. The isobars have equal 4-mb intervals but are closer together near B, so pressure changes more over the same distance. The larger pressure gradient generally supports faster wind.",
+      "rubric": [
+        {
+          "criterion": "Chooses B.",
+          "points": 1.25,
+          "explanation": "B lies in the region of tighter isobar spacing."
+        },
+        {
+          "criterion": "Connects tighter equal-interval spacing to larger pressure gradient and stronger wind.",
+          "points": 1.25,
+          "explanation": "Spacing must be interpreted with the pressure interval and distance in mind."
+        }
+      ],
+      "common_errors": [
+        {
+          "error": "Choosing A because its local pressure is lower",
+          "feedback": "Wind strength is related to the horizontal pressure gradient, not just whether the local pressure value is low."
+        },
+        {
+          "error": "Saying widely spaced isobars mean stronger wind",
+          "feedback": "With equal pressure intervals, wider spacing means a smaller pressure change per distance."
+        }
+      ],
+      "hint": "Compare how much pressure changes over the same horizontal distance.",
+      "sources": [
+        "Study guide: isobar spacing and wind speed",
+        "15 slide 7"
+      ],
+      "grading": "Evaluate meaning and reasoning against the frozen rubric. Accept scientifically equivalent wording and equivalent units where allowed. Do not use exact-keyword matching. Award partial credit for demonstrated components. Explain credit earned and each material error, then show the model answer. Do not invent new criteria after seeing the response; explain any genuinely ambiguous scoring judgment.",
+      "asset": "assets/isobars.png",
+      "stimulus_data": {
+        "north_up": true,
+        "contours_mb": [
+          1000,
+          1004,
+          1008,
+          1012,
+          1016
+        ],
+        "x_pixels": [
+          140,
+          330,
+          510,
+          630,
+          700
+        ],
+        "A_x": 235,
+        "B_x": 665
+      }
+    },
+    {
+      "id": "Q39",
+      "number": 39,
+      "section": "map_skills",
+      "type": "map_response",
+      "topic": "Map skills: isobars and wind direction",
+      "points": 2.5,
+      "question": "Use the same isobar map in the Northern Hemisphere. (a) Ignoring friction, would geostrophic air move toward north, south, east, or west? (b) Near the surface, would friction allow it to cross the isobars toward the lower-pressure west side or the higher-pressure east side?",
+      "model_answer": "Ignoring friction, the air moves toward the north, parallel to the isobars, with lower pressure on its left to the west. This is a southerly wind because wind direction names where it comes from. With surface friction, it can cross toward the lower-pressure west side while retaining a generally northward component.",
+      "rubric": [
+        {
+          "criterion": "Geostrophic motion toward north; accept a wind from south if clearly expressed.",
+          "points": 1.25,
+          "explanation": "Northern Hemisphere geostrophic flow has low pressure to its left, which here is west."
+        },
+        {
+          "criterion": "Surface crossing toward lower pressure, west.",
+          "points": 1.25,
+          "explanation": "Friction slows the flow and weakens Coriolis relative to the pressure-gradient force."
+        }
+      ],
+      "common_errors": [
+        {
+          "error": "Answering south while treating it as the direction of motion",
+          "feedback": "The question asks which way the air moves. It moves north; its named wind direction is from the south."
+        },
+        {
+          "error": "Saying surface friction turns the crossing toward higher pressure",
+          "feedback": "Surface flow crosses toward lower pressure in this large-scale model, not toward the higher-pressure side."
+        }
+      ],
+      "hint": "Face along a possible parallel wind and check which side the lower pressure occupies.",
+      "sources": [
+        "Study guide: geostrophic flow and wind direction on isobars",
+        "15 slides 9-11"
+      ],
+      "grading": "Evaluate meaning and reasoning against the frozen rubric. Accept scientifically equivalent wording and equivalent units where allowed. Do not use exact-keyword matching. Award partial credit for demonstrated components. Explain credit earned and each material error, then show the model answer. Do not invent new criteria after seeing the response; explain any genuinely ambiguous scoring judgment.",
+      "asset": "assets/isobars.png",
+      "stimulus_data": {
+        "hemisphere": "Northern",
+        "pressure_lower_to": "west",
+        "geostrophic_motion_to": "north",
+        "surface_crossing_to": "west"
+      }
+    },
+    {
+      "id": "Q40",
+      "number": 40,
+      "section": "map_skills",
+      "type": "map_response",
+      "topic": "Map skills: 500-mb trough and ridge",
+      "points": 2.5,
+      "question": "Use the schematic 500-mb height map. Identify the feature along dashed axis A and the feature along dashed axis B as a trough or ridge. Briefly describe how the contour shape supports each answer.",
+      "model_answer": "Axis A marks a ridge: the height contours bulge northward. Axis B marks a trough: the contours dip southward. This is a constant-pressure map, so the labeled contours represent the height of the 500-mb surface rather than different pressures.",
+      "rubric": [
+        {
+          "criterion": "Axis A is a ridge with a northward bulge: .75 for the label and .5 for the shape.",
+          "points": 1.25,
+          "explanation": "The contours arch toward higher latitude along A."
+        },
+        {
+          "criterion": "Axis B is a trough with a southward dip: .75 for the label and .5 for the shape.",
+          "points": 1.25,
+          "explanation": "The contours extend toward lower latitude along B."
+        }
+      ],
+      "common_errors": [
+        {
+          "error": "Swapping trough and ridge because a trough sounds like a hill",
+          "feedback": "On this north-up upper-air map, the northward bulge is a ridge and the southward dip a trough."
+        },
+        {
+          "error": "Calling 540 and 564 different pressure levels",
+          "feedback": "Pressure is 500 mb everywhere on this map. The contours are heights, labeled in decameters."
+        }
+      ],
+      "hint": "Read the map with north upward, and compare a northward bulge with a southward dip.",
+      "sources": [
+        "Study guide: troughs and ridges on 500-mb map",
+        "16 slide 11"
+      ],
+      "grading": "Evaluate meaning and reasoning against the frozen rubric. Accept scientifically equivalent wording and equivalent units where allowed. Do not use exact-keyword matching. Award partial credit for demonstrated components. Explain credit earned and each material error, then show the model answer. Do not invent new criteria after seeing the response; explain any genuinely ambiguous scoring judgment.",
+      "asset": "assets/height_500mb.png",
+      "stimulus_data": {
+        "pressure_mb": 500,
+        "height_contours_dam": [
+          540,
+          546,
+          552,
+          558,
+          564
+        ],
+        "axis_A_x": 250,
+        "axis_B_x": 650,
+        "A": "ridge",
+        "B": "trough"
+      }
+    }
+  ]
+}
